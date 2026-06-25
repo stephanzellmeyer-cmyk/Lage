@@ -84,6 +84,11 @@ main { padding-block: 1.5rem 3rem; }
   flex-wrap: wrap; margin-top: 1.25rem;
 }
 .eyebrow { margin: 0; font-size: .8rem; letter-spacing: .12em; text-transform: uppercase; color: var(--c-bern); font-weight: 700; }
+.draft-badge {
+  display: inline-block; margin-left: .6rem; padding: .12rem .55rem; border-radius: 999px;
+  background: var(--s-eing-bg); color: var(--s-eing-fg); border: 1px solid var(--s-eing-bd);
+  font-size: .68rem; letter-spacing: .06em; vertical-align: middle;
+}
 .report-head h1 { margin: .15rem 0 .25rem; font-size: clamp(1.7rem, 3.5vw, 2.4rem); line-height: 1.1; }
 .report-stand { margin: 0; color: var(--c-muted); font-size: .92rem; }
 

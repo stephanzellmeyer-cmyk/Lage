@@ -1,0 +1,61 @@
+name: Monatlicher Lagebericht (KI-Entwurf)
+
+# Erzeugt am Monatsanfang automatisch einen KI-gestützten Entwurf des
+# Lageberichts und öffnet dazu einen Pull Request zur fachlichen Prüfung.
+# Veröffentlicht wird NICHT automatisch – der PR muss geprüft und gemergt werden.
+
+on:
+  schedule:
+    # 06:00 UTC am 1. jedes Monats
+    - cron: "0 6 1 * *"
+  workflow_dispatch:
+    inputs:
+      month:
+        description: "Berichtsmonat als JJJJ-MM (leer = aktueller Monat)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  generieren:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: Node.js einrichten
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Abhängigkeiten installieren
+        run: npm install
+
+      - name: Lagebericht-Entwurf generieren
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          LAGE_MONTH: ${{ github.event.inputs.month }}
+        run: node scripts/generate-report.mjs
+
+      - name: Pull Request erstellen
+        uses: peter-evans/create-pull-request@v6
+        with:
+          add-paths: |
+            data
+          branch: auto/lagebericht-entwurf
+          delete-branch: true
+          commit-message: "Automatischer Lagebericht-Entwurf"
+          title: "Lagebericht-Entwurf (automatisch generiert)"
+          body: |
+            Automatisch generierter Entwurf des monatlichen Lageberichts.
+
+            ⚠️ **KI-generierter Entwurf** – die Einschätzungen sind vor der
+            Veröffentlichung durch die zuständige Fachstelle zu prüfen, zu
+            korrigieren und freizugeben. Erst nach Freigabe mergen.
+          labels: |
+            lagebericht
+            entwurf
+            automatisch

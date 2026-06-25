@@ -1,0 +1,14 @@
+{
+  "name": "lage-bevoelkerungsschutz-bern",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Monatliche Bevölkerungsschutz-Lage Kanton Bern – statische Seite + KI-gestützter Entwurfsgenerator",
+  "scripts": {
+    "generate": "node scripts/generate-report.mjs",
+    "serve": "python3 -m http.server 8000"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "latest"
+  }
+}

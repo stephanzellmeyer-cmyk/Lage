@@ -123,6 +123,19 @@
     els.stand.textContent = rep.stand || "—";
     els.source.textContent = `data/${rep.id}.json`;
 
+    // Entwurfs-Hinweis (z. B. KI-generierte Berichte vor Freigabe)
+    const eyebrow = document.querySelector(".eyebrow");
+    if (eyebrow) {
+      const existing = eyebrow.querySelector(".draft-badge");
+      if (existing) existing.remove();
+      if (rep.entwurf) {
+        const badge = document.createElement("span");
+        badge.className = "draft-badge";
+        badge.textContent = "Entwurf – nicht freigegeben";
+        eyebrow.appendChild(badge);
+      }
+    }
+
     const stufe = (rep.gesamtlage && rep.gesamtlage.stufe) || "normal";
     const s = STATUS[stufe] || STATUS.normal;
     els.gesamtStufe.className = `status-badge ${s.cls}`;
