@@ -67,7 +67,20 @@ body {
 }
 .report-select:focus-visible { outline: 3px solid rgba(200,16,46,.35); outline-offset: 1px; }
 
-/* Disclaimer */
+/* Prominenter Warnbanner ganz oben */
+.alert-banner {
+  background: var(--c-bern);
+  color: #fff;
+  border-bottom: 4px solid var(--c-bern-dark);
+}
+.alert-inner {
+  display: flex; align-items: flex-start; gap: .75rem; padding: .95rem 0;
+}
+.alert-icon { font-size: 1.4rem; line-height: 1.4; flex: none; }
+.alert-banner p { margin: 0; font-size: .96rem; line-height: 1.55; }
+.alert-banner strong { font-weight: 800; }
+
+/* Disclaimer (Alt-Stil, weiterhin für etwaige Hinweise nutzbar) */
 .disclaimer {
   margin-top: 1rem; padding: .7rem 1rem; font-size: .9rem; color: var(--c-ink-soft);
   background: #fff8e6; border: 1px solid #f1dea6; border-radius: var(--radius-sm);
