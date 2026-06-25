@@ -1,0 +1,7 @@
+{
+  "titel": "Bevölkerungsschutz-Lage Kanton Bern",
+  "berichte": [
+    { "id": "2026-06", "label": "Juni 2026" },
+    { "id": "2026-05", "label": "Mai 2026" }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "JJJJ-MM",
+  "monat": "Monat JJJJ",
+  "stand": "TT. Monat JJJJ",
+  "gesamtlage": {
+    "stufe": "normal",
+    "titel": "Kurztitel der Gesamtbeurteilung",
+    "text": "Zusammenfassende Beurteilung der Gesamtlage in zwei bis vier Sätzen."
+  },
+  "aktuelleLage": [
+    "Absatz zur aktuellen Lage.",
+    { "liste": ["Stichpunkt 1", "Stichpunkt 2"] }
+  ],
+  "entwicklungWochen": [
+    "Beschreibung der Entwicklung der letzten Wochen."
+  ],
+  "tendenzen": [
+    "Erwartete Entwicklungstendenzen für den nächsten Monat.",
+    { "liste": ["Tendenz 1", "Tendenz 2"] }
+  ],
+  "sektoren": [
+    { "id": "wasser",        "name": "Wasserversorgung",                     "icon": "💧", "status": "normal", "trend": "stabil", "global": "", "schweiz": "", "bern": "", "fazit": "" },
+    { "id": "lebensmittel",  "name": "Lebensmittelversorgung",               "icon": "🥖", "status": "normal", "trend": "stabil", "global": "", "schweiz": "", "bern": "", "fazit": "" },
+    { "id": "medizin",       "name": "Medizinische Versorgung",              "icon": "🏥", "status": "normal", "trend": "stabil", "global": "", "schweiz": "", "bern": "", "fazit": "" },
+    { "id": "energie",       "name": "Energieversorgung",                    "icon": "⚡", "status": "normal", "trend": "stabil", "global": "", "schweiz": "", "bern": "", "fazit": "" },
+    { "id": "mobilitaet",    "name": "Mobilität",                            "icon": "🚆", "status": "normal", "trend": "stabil", "global": "", "schweiz": "", "bern": "", "fazit": "" },
+    { "id": "bargeld",       "name": "Bargeldversorgung und Zahlungsverkehr","icon": "💳", "status": "normal", "trend": "stabil", "global": "", "schweiz": "", "bern": "", "fazit": "" },
+    { "id": "kommunikation", "name": "Kommunikation",                        "icon": "📡", "status": "normal", "trend": "stabil", "global": "", "schweiz": "", "bern": "", "fazit": "" },
+    { "id": "unterbringung", "name": "Unterbringung",                        "icon": "🏠", "status": "normal", "trend": "stabil", "global": "", "schweiz": "", "bern": "", "fazit": "" },
+    { "id": "sicherheit",    "name": "Sicherheit",                           "icon": "🛡️", "status": "normal", "trend": "stabil", "global": "", "schweiz": "", "bern": "", "fazit": "" }
+  ]
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bevölkerungsschutz-Lage Kanton Bern</title>
+  <meta name="description" content="Monatliche Lagedarstellung des Bevölkerungsschutzes im Kanton Bern – aktuelle Lage, Entwicklung und Tendenzen je Versorgungssektor." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2 4 5v6c0 5 3.4 8.5 8 11 4.6-2.5 8-6 8-11V5l-8-3z' fill='%23c8102e'/%3E%3Cpath d='M12 6.5 9.5 10h1.7v3h1.6v-3h1.7L12 6.5z' fill='%23fff'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#hauptinhalt">Zum Inhalt springen</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="34" height="34" role="img" aria-label="Wappen">
+            <path d="M12 2 4 5v6c0 5 3.4 8.5 8 11 4.6-2.5 8-6 8-11V5l-8-3z" fill="currentColor"/>
+            <path d="M12 6.5 9.5 10h1.7v3h1.6v-3h1.7L12 6.5z" fill="#fff"/>
+          </svg>
+        </span>
+        <div class="brand-text">
+          <span class="brand-canton">Kanton Bern</span>
+          <span class="brand-title">Bevölkerungsschutz-Lage</span>
+        </div>
+      </div>
+      <div class="header-controls">
+        <label for="report-select" class="visually-hidden">Berichtsmonat auswählen</label>
+        <select id="report-select" class="report-select" aria-label="Berichtsmonat auswählen"></select>
+      </div>
+    </div>
+  </header>
+
+  <div class="disclaimer container" role="note">
+    <strong>Hinweis:</strong> Diese Darstellung dient als Vorlage und Demonstration. Die enthaltenen
+    Einschätzungen sind <em>illustrative Beispielinhalte</em> und stellen keine offizielle Lagebeurteilung dar.
+  </div>
+
+  <main id="hauptinhalt" class="container" tabindex="-1">
+    <div id="loading" class="loading">Lagebericht wird geladen …</div>
+    <div id="error" class="error" hidden></div>
+
+    <article id="report" hidden>
+      <!-- Titel / Stand -->
+      <section class="report-head">
+        <div>
+          <p class="eyebrow">Monatliche Lagedarstellung</p>
+          <h1 id="report-month">—</h1>
+          <p class="report-stand">Stand: <span id="report-stand">—</span></p>
+        </div>
+        <div id="gesamtlage" class="gesamtlage">
+          <span class="gesamtlage-label">Gesamtbeurteilung</span>
+          <span id="gesamtlage-stufe" class="status-badge">—</span>
+        </div>
+      </section>
+
+      <p id="gesamtlage-text" class="lead"></p>
+
+      <!-- Lage-Narrativ -->
+      <div class="grid grid-3 narrative">
+        <section class="card">
+          <h2><span class="card-icon" aria-hidden="true">📍</span> Aktuelle Lage</h2>
+          <div id="aktuelle-lage" class="rich"></div>
+        </section>
+        <section class="card">
+          <h2><span class="card-icon" aria-hidden="true">📈</span> Entwicklung der letzten Wochen</h2>
+          <div id="entwicklung-wochen" class="rich"></div>
+        </section>
+        <section class="card">
+          <h2><span class="card-icon" aria-hidden="true">🧭</span> Tendenzen nächster Monat</h2>
+          <div id="tendenzen" class="rich"></div>
+        </section>
+      </div>
+
+      <!-- Sektoren -->
+      <section class="sectors">
+        <div class="sectors-head">
+          <h2>Leistungsfähigkeit der Versorgungssektoren</h2>
+          <div class="legend" id="legend"></div>
+        </div>
+        <p class="sectors-intro">
+          Einschätzung der Auswirkungen aktueller Entwicklungen <strong>weltweit</strong>, in der
+          <strong>Schweiz</strong> und im <strong>Kanton Bern</strong> auf die Leistungsfähigkeit der
+          kritischen Versorgungssektoren.
+        </p>
+        <div id="sector-grid" class="grid grid-sectors"></div>
+      </section>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>Bevölkerungsschutz-Lage Kanton Bern · Monatliche Lagedarstellung</p>
+      <p class="footer-meta">Datenquelle: <code>data/&lt;jahr-monat&gt;.json</code> · <span id="report-source">—</span></p>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js" defer></script>
+</body>
+</html>

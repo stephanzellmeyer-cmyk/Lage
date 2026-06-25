@@ -1,0 +1,100 @@
+{
+  "id": "2026-05",
+  "monat": "Mai 2026",
+  "stand": "26. Mai 2026",
+  "gesamtlage": {
+    "stufe": "beobachtung",
+    "titel": "Stabil – Übergang ins Sommerhalbjahr",
+    "text": "Die Bevölkerungsschutz-Lage im Kanton Bern ist stabil. Mit der Schneeschmelze stand im Mai die Hochwasser- und Murganggefahr im Vordergrund. Die Grundversorgung war jederzeit gewährleistet; die Cyber-Bedrohungslage blieb erhöht."
+  },
+  "aktuelleLage": [
+    "Die Lage im Kanton Bern präsentierte sich Ende Mai 2026 ruhig. Mit der einsetzenden Schneeschmelze und ergiebigen Niederschlägen stiegen die Pegel von Aare und Voralpengewässern zeitweise an, blieben aber unter den Gefahrenschwellen.",
+    "Keine ausserordentlichen Ereignisse mit Überforderung der Bewältigungskapazitäten. Die Partnerorganisationen des Bevölkerungsschutzes waren saisongerecht bereit."
+  ],
+  "entwicklungWochen": [
+    "Gegenüber April hat sich die hydrologische Lage durch Schmelzwasser und Regen angespannt, ohne kritische Werte zu erreichen.",
+    "Cyber-Vorfälle gegen Schweizer Verwaltungen und Unternehmen setzten sich fort. Die Energiemärkte zeigten sich nach dem Winter entspannt."
+  ],
+  "tendenzen": [
+    "Für Juni wird ein Übergang zu sommerlichen Risiken erwartet: nachlassende Hochwassergefahr, dafür beginnende Hitze- und Trockenheitsthematik.",
+    { "liste": [
+      "Rückläufige Hochwasser-/Murganggefahr nach Abschluss der Schneeschmelze.",
+      "Zunehmende Gewitter- und Hagelgefahr.",
+      "Anhaltend hohe Cyber-Bedrohung."
+    ] }
+  ],
+  "sektoren": [
+    {
+      "id": "wasser", "name": "Wasserversorgung", "icon": "💧",
+      "status": "normal", "trend": "stabil",
+      "global": "Regional zunehmender Wasserstress; ohne Rückwirkung auf die Schweiz.",
+      "schweiz": "Reichliche Reserven nach niederschlagsreichem Frühling.",
+      "bern": "Versorgung uneingeschränkt; Quellschüttungen über dem Mittel.",
+      "fazit": "Leistungsfähigkeit uneingeschränkt."
+    },
+    {
+      "id": "lebensmittel", "name": "Lebensmittelversorgung", "icon": "🥖",
+      "status": "normal", "trend": "stabil",
+      "global": "Agrarmärkte angespannt, Verfügbarkeit gesichert.",
+      "schweiz": "Versorgung stabil; Pflichtlager funktionsfähig.",
+      "bern": "Detailhandel und Logistik störungsfrei.",
+      "fazit": "Versorgung gewährleistet."
+    },
+    {
+      "id": "medizin", "name": "Medizinische Versorgung", "icon": "🏥",
+      "status": "beobachtung", "trend": "stabil",
+      "global": "Lieferengpässe bei einzelnen Medikamenten weltweit.",
+      "schweiz": "Arzneimittelengpässe bestehen fort; Versorgung durch Bewirtschaftung gesichert.",
+      "bern": "Spitäler leistungsfähig; Fachkräftemangel belastet.",
+      "fazit": "Grundversorgung gesichert."
+    },
+    {
+      "id": "energie", "name": "Energieversorgung", "icon": "⚡",
+      "status": "beobachtung", "trend": "sinkend",
+      "global": "Volatile Energiemärkte ohne akute Mangellage.",
+      "schweiz": "Nach dem Winter entspannte Stromlage; Speicherseen füllen sich.",
+      "bern": "Versorgung stabil; Wintervorsorge in Planung.",
+      "fazit": "Aktuell unkritisch."
+    },
+    {
+      "id": "mobilitaet", "name": "Mobilität", "icon": "🚆",
+      "status": "normal", "trend": "stabil",
+      "global": "Liefer- und Verkehrsketten weitgehend stabil.",
+      "schweiz": "Schienen- und Strassennetz leistungsfähig.",
+      "bern": "ÖV und Strassen zuverlässig; einzelne Pässe witterungsbedingt verzögert geöffnet.",
+      "fazit": "Leistungsfähig."
+    },
+    {
+      "id": "bargeld", "name": "Bargeldversorgung und Zahlungsverkehr", "icon": "💳",
+      "status": "normal", "trend": "stabil",
+      "global": "Cyber-Angriffe auf Finanzinfrastrukturen; Systeme stabil.",
+      "schweiz": "Zahlungsverkehr resilient.",
+      "bern": "Bezahlinfrastruktur uneingeschränkt verfügbar.",
+      "fazit": "Voll funktionsfähig."
+    },
+    {
+      "id": "kommunikation", "name": "Kommunikation", "icon": "📡",
+      "status": "beobachtung", "trend": "steigend",
+      "global": "Zunehmende Cyber- und Desinformationsaktivität.",
+      "schweiz": "Netze leistungsfähig; Cyber-Bedrohung erhöht.",
+      "bern": "Netze und Polycom funktionsfähig; vereinzelte Cyber-Vorfälle.",
+      "fazit": "Betrieb gesichert; Cyber-Risiko steigend."
+    },
+    {
+      "id": "unterbringung", "name": "Unterbringung", "icon": "🏠",
+      "status": "beobachtung", "trend": "stabil",
+      "global": "Migrationsbewegungen auf hohem Niveau.",
+      "schweiz": "Unterbringungsstrukturen ausgelastet.",
+      "bern": "Kapazitäten angespannt, aber funktionsfähig.",
+      "fazit": "Funktionsfähig bei hoher Auslastung."
+    },
+    {
+      "id": "sicherheit", "name": "Sicherheit", "icon": "🛡️",
+      "status": "beobachtung", "trend": "stabil",
+      "global": "Geopolitische Spannungen; erhöhte Terror-/Cyber-Bedrohung.",
+      "schweiz": "Terrorbedrohung erhöht.",
+      "bern": "Sicherheitslage ruhig; keine konkrete Gefährdung.",
+      "fazit": "Lage beherrschbar."
+    }
+  ]
+}
