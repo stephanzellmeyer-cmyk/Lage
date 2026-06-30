@@ -1,29 +1,35 @@
 {
   "id": "2026-06",
   "monat": "Juni 2026",
-  "stand": "25. Juni 2026",
+  "stand": "30. Juni 2026",
   "entwurf": true,
   "gesamtlage": {
     "stufe": "beobachtung",
-    "titel": "Anhaltende Hitzewelle prägt die Lage",
-    "text": "Die Gesamtlage steht unter Beobachtung und wird primär durch eine ausgeprägte, anhaltende Hitzewelle bestimmt. In Bern-Zollikofen wurde mit 34,5 °C ein neuer Juni-Rekord gemessen. Die Lage ist insgesamt beherrschbar, jedoch im Bereich Gesundheitsschutz und Schutz vulnerabler Personen belastet. Hinweise auf strukturelle Versorgungskrisen in den Grundsektoren liegen nicht vor."
+    "titel": "Hitzewelle und Trockenheit prägen die Lage",
+    "text": "Die Lage im Kanton Bern wird im Juni 2026 durch eine ausgeprägte, lang anhaltende Hitzewelle und eine seit dem Frühling bestehende Trockenheit dominiert. Es handelt sich um ein flächiges, witterungsgetriebenes Ereignis, das mehrere Versorgungssektoren gleichzeitig berührt (Wasser, Landwirtschaft/Lebensmittel, Gesundheit, Sicherheit/Wald). Die Grundversorgung ist in allen Sektoren gesichert; das Risikoprofil ist jedoch wetterbedingt erhöht, mit Schwerpunkt auf Wasser, Gesundheit und Sicherheit. Die Gesamteinstufung lautet 'unter Beobachtung'."
   },
   "aktuelleLage": [
-    "Bestimmendes Ereignis ist eine ausgeprägte, anhaltende Hitzewelle. In der dritten Junidekade wurden neue Juni-Höchstwerte registriert, in Bern-Zollikofen 34,5 °C als neuer Juni-Rekord (bisher 34,4 °C vom 27. Juni 2019).",
-    "Der Kanton Bern hat die Bevölkerung zum Hitzeschutz aufgerufen, mit besonderem Augenmerk auf gefährdete Personen wie ältere Menschen, Kleinkinder, Schwangere und chronisch Erkrankte. Empfohlen werden ausreichende Flüssigkeitszufuhr, Alkoholverzicht und leichte Kost.",
-    "Die Hitze hält an: Prognosen sehen für Bern über mindestens eine Woche täglich Höchstwerte über 30 °C, regional 36–37 °C; zum Wochenende nimmt die Gewitterneigung zu, besonders im Berner Oberland.",
-    "Die Hitze wirkt als Querschnittsbelastung (Hitzestress, Niedrigwasser, Vegetationsbrandgefahr, Belastung von Verkehrsinfrastruktur und Stromnetz). Akute, flächige Versorgungsausfälle sind nach derzeitigem Kenntnisstand nicht gemeldet."
+    "Die landesweit gemittelte Junitemperatur lag rund +3.5 °C über der Referenzperiode 1991–2020 und belegte gemäss MeteoSchweiz den 3. Rang seit Messbeginn 1864. In den Niederungen wurden verbreitet 31–35 °C, lokal bis 36 °C gemessen.",
+    "MeteoSchweiz gab für die Niederungen der gesamten Schweiz eine Hitzewarnung der Stufe 3 aus; für die Nordwestschweiz und Teile der Westschweiz galt zeitweise Stufe 4 (höchste Stufe).",
+    "Die Niederschläge blieben deutlich unter dem langjährigen Durchschnitt; regional wurden weniger als 40 % eines durchschnittlichen Juniniederschlags verzeichnet. Im Mittelland herrscht seit dem Frühling 2026 eine ausgeprägte Trockenheit.",
+    "Pegel zahlreicher Seen und Flüsse sind unterdurchschnittlich; Grundwasserstände und Quellabflüsse liegen schweizweit im normalen bis tiefen Bereich. Hohe Wassertemperaturen gefährden lokal die Fischbestände.",
+    "Im gesamten Kanton Bern gilt erhebliche Waldbrandgefahr; die Behörden rufen zu grösster Vorsicht auf. Ein generelles Feuerverbot bestand per Stand 25./26. Juni 2026 noch nicht, andere Kantone haben bedingte Feuerverbote erlassen.",
+    "Gesamteinstufung Kanton Bern: 'unter Beobachtung'. Die Grundversorgung ist gesichert; das Risikoprofil ist wetterbedingt erhöht (Wald-/Vegetationsbrand, Hitze-Gesundheitsbelastung, Wasserknappheit, Unwetter nach Hitze)."
   ],
   "entwicklungWochen": [
-    "Übergang von einer wechselhaften Frühsommerwitterung (Mitte Mai noch kühl-bewölkt, teils 10–20 °C im Raum Bern) zu einer markanten Hitzephase gegen Ende Juni.",
-    "Der Aufbau der Hitze erfolgte rasch und kulminierte in Rekordwerten an mehreren Messstationen.",
-    "Die Belastung verlagerte sich vom Themenfeld Hochwasser/Starkregen hin zu Hitze und Trockenheit.",
-    "Mit zunehmender Sonnenscheindauer und ausbleibendem Niederschlag ist von sinkenden Abflüssen, steigenden Gewässertemperaturen und zunehmender Vegetationsbrandgefahr auszugehen."
+    "Auf eine weitgehend normale erste Maihälfte folgte eine sehr warme, trockene und sonnige letzte Maidekade, womit sich bereits ein Niederschlagsdefizit aufbaute.",
+    "Ab 18. Juni Aufbau einer kräftigen, lang anhaltenden Hochdrucklage mit subtropischen Luftmassen; ab diesem Datum Hitzewarnung Stufe 3, in Teilen der West-/Nordwestschweiz Hochstufung auf Stufe 4.",
+    "Die Hitzewelle erreichte um den 25.–28. Juni ihren Höhepunkt; mehrere Junirekorde wurden gebrochen bzw. standen zur Disposition.",
+    "Parallel dazu sinkende Gewässerpegel und zunehmende Verschärfung der Waldbrandgefahr; im Verlauf der zweiten Monatshälfte erste bedingte Feuerverbote in mehreren Kantonen.",
+    "Zum Monatsende steigendes Unwetterpotenzial: Nach der Hitze traten Gewitter mit lokalen Schäden auf (u. a. Raum Zürich).",
+    "Hydrologisch ungünstig: unterdurchschnittliche Winterschneemengen und früh einsetzende Schmelzsaison deuten auf einen ungünstigen Gletschersommer 2026 hin – mittelfristig relevant für die sommerliche Wasserführung.",
+    "Tendenz der letzten Wochen: kontinuierliche Verschärfung der hitze- und trockenheitsbedingten Risiken."
   ],
   "tendenzen": [
-    "Fortdauer hitzegeprägter Lagen im Hochsommer ist wahrscheinlich; Phasen mit über 30 °C dürften sich wiederholen. Risikoschwerpunkte: Gesundheitsschutz, Trinkwasser-Spitzenbedarf, Niedrigwasser, Wald- und Flurbrand.",
-    "Zunehmendes Gewitter- und Unwetterpotenzial: Nach Hitzephasen besteht erhöhte Gefahr lokaler Starkniederschläge mit Sturzfluten und Hagel, besonders im Oberland. Hochwasservorsorge bleibt relevant.",
-    "Gesamttendenz angespannt-stabil: Keine Anzeichen für strukturelle Versorgungskrisen; das dominierende Risiko ist witterungsgetrieben und kurzfristig (Tage bis wenige Wochen)."
+    "Nach dem Abklingen der Hitzewelle zum Monatswechsel kurzzeitig kühlere, feuchtere und gewittrige Phase; danach Tendenz zu erneut warmem bis heissem Hochsommerwetter. Längerfristprognosen deuten für Juli eher zu warme und tendenziell trockene Verhältnisse an.",
+    "Anhaltende bis sich verschärfende Trockenheit ist wahrscheinlich: Die kurzen Gewitterniederschläge gleichen das aufgebaute Defizit nicht aus, der Boden ist ausgetrocknet, die Gewässerpegel bleiben tief.",
+    "Erhöhtes saisonales Risiko für Vegetations-/Waldbrände (mögliche Ausweitung von Feuerverboten auf den Kanton Bern), lokale Wasserknappheit/Nutzungseinschränkungen, hitzebedingte Gesundheitsbelastung sowie Unwetter/Hagel/Sturzfluten nach Hitzeperioden.",
+    "Fazit Ausblick: Das Risikoniveau bleibt erhöht, Tendenz insgesamt stabil bis leicht steigend mit witterungsabhängiger Volatilität."
   ],
   "sektoren": [
     {
@@ -32,10 +38,10 @@
       "icon": "💧",
       "status": "beobachtung",
       "trend": "steigend",
-      "global": "Hitze und Dürreperioden belasten in mehreren Regionen die Wasserverfügbarkeit; das Thema bleibt global mit zunehmender Häufung relevant.",
-      "schweiz": "Grundsätzlich gute Ressourcenlage; bei anhaltender Hitze sind regional sinkende Abflüsse, steigende Gewässertemperaturen und örtliche Spitzenbelastungen der Trinkwasserversorgung möglich.",
-      "bern": "Versorgung breit auf Grund-, Quell- und Seewasser abgestützt; aktuell keine Engpassmeldung recherchierbar. Bei Fortdauer der Trockenheit sind lokale Aufrufe zu sparsamem Verbrauch nicht auszuschliessen.",
-      "fazit": "Versorgung gesichert; hitzebedingte Spitzenlasten und lokale Rückgänge der Quellschüttung im Blick behalten."
+      "global": "Zunehmender Wasserstress in vielen Regionen durch Klimawandel und Dürren; kein akutes globales Ereignis mit direktem Bezug zum Kanton.",
+      "schweiz": "Ausgeprägte Trockenheit seit Frühling 2026; Grundwasserstände und Quellabflüsse normal bis tief, viele See- und Flusspegel unterdurchschnittlich. Trinkwasserversorgung gesamthaft gesichert, lokale Engpässe bei quellgespeisten Kleinversorgern möglich.",
+      "bern": "Reichhaltige Wasserressourcen gewährleisten die Versorgung der Bevölkerung. In höher gelegenen, quellabhängigen Gemeinden steigt das Risiko lokaler Knappheit; mögliche Aufrufe zu sparsamem Verbrauch und Bewässerungseinschränkungen.",
+      "fazit": "Grundversorgung gesichert, aber zunehmender Druck auf kleine, quellbasierte Systeme."
     },
     {
       "id": "lebensmittel",
@@ -43,10 +49,10 @@
       "icon": "🥖",
       "status": "normal",
       "trend": "stabil",
-      "global": "Versorgung grundsätzlich funktionsfähig; Hitze und Dürre können regionale Ernteerträge und Preise beeinflussen.",
-      "schweiz": "Hoher Selbstversorgungsgrad bei verarbeiteten Gütern durch Pflichtlager; Versorgungssicherheit stabil. Trockenheit kann inländische Erträge und Bewässerungsbedarf belasten.",
-      "bern": "Als bedeutender Agrarkanton hitze- und trockenheitsexponiert in der Landwirtschaft, bei der Endverbraucherversorgung jedoch keine Beeinträchtigung erkennbar.",
-      "fazit": "Versorgung sichergestellt; landwirtschaftliche Produktionsrisiken durch Trockenheit beobachten."
+      "global": "Versorgung grundsätzlich funktionsfähig; Hitze und Dürre in Teilen Europas können Ernten und Preise punktuell beeinflussen.",
+      "schweiz": "Versorgung gesichert. Die Trockenheit belastet die Landwirtschaft (Futterbau, Ackerkulturen, Bewässerungsbedarf) mit regionalen Ertrags- und Qualitätsrisiken. Hohe Lagerhaltung und Importfähigkeit stützen die Versorgungssicherheit.",
+      "bern": "Als bedeutender Agrarkanton sind landwirtschaftliche Betriebe direkt von Trockenheit und Hitze betroffen (Futtermangel, tiefe Wasserstände); Auswirkungen auf die Endkundenversorgung sind nicht zu erwarten.",
+      "fazit": "Versorgung der Bevölkerung uneingeschränkt; Belastung auf der Produktionsstufe (Landwirtschaft) mit steigender Tendenz."
     },
     {
       "id": "medizin",
@@ -54,10 +60,10 @@
       "icon": "🏥",
       "status": "beobachtung",
       "trend": "steigend",
-      "global": "Hitzewellen erhöhen Notfallaufkommen und Übersterblichkeit, vor allem bei vulnerablen Personen.",
-      "schweiz": "Hitzeperioden führen erfahrungsgemäss zu mehr hitzeassoziierten Notfällen und zu Belastung von Spitälern, Rettungsdiensten und Pflege.",
-      "bern": "Der Kanton hat aktiv zum Hitzeschutz aufgerufen und auf Risikogruppen hingewiesen. Versorgungsstrukturen sind funktionsfähig, aber unter zusätzlicher Last.",
-      "fazit": "System leistungsfähig, aber hitzebedingt belastet; Schutz vulnerabler Personen ist der aktuelle Schwerpunkt."
+      "global": "Hitzewellen sind ein bekannter Treiber von Übersterblichkeit und Notfallbelastung.",
+      "schweiz": "Während markanter Hitzewellen steigen hitzeassoziierte Notfälle und Belastungen vulnerabler Gruppen (ältere Menschen, chronisch Kranke); Spitäler und Rettungsdienste sind funktionsfähig, aber mit erhöhter saisonaler Last.",
+      "bern": "Versorgung gewährleistet; bei Stufe-3-Hitzewarnungen sind Präventionsmassnahmen (Hitzeschutzempfehlungen) und erhöhte Aufmerksamkeit angezeigt.",
+      "fazit": "Leistungsfähigkeit gegeben, jedoch hitzebedingte Mehrbelastung und erhöhtes Gesundheitsrisiko für vulnerable Gruppen."
     },
     {
       "id": "energie",
@@ -65,21 +71,21 @@
       "icon": "⚡",
       "status": "normal",
       "trend": "stabil",
-      "global": "Hitze erhöht den Kühl- und Strombedarf; thermische Kraftwerke und Netze können bei Extremtemperaturen an Grenzen stossen.",
-      "schweiz": "Sommerliche Stromversorgung ist üblicherweise komfortabel mit hoher Wasserkraftproduktion; akute Mangellage nicht erkennbar. Hitze kann lokale Netzbelastung verursachen.",
-      "bern": "Keine Versorgungsstörung recherchierbar; hohe Eigenproduktion aus Wasserkraft.",
-      "fazit": "Versorgung stabil; saisonale Sommersituation günstig, hitzebedingte Netz- und Kühllast im Blick."
+      "global": "Energiemärkte angespannt, aber funktionsfähig; geopolitische Risiken bleiben strukturell relevant.",
+      "schweiz": "Im Sommer ist die Stromversorgung komfortabel. Strukturell zeigt der VSE-Stromversorgungs-Index mittel- bis langfristige Risiken; zur Absicherung wurden fünf Reservekraftwerk-Projekte mit insgesamt 583 MW beauftragt, und ein Stromabkommen mit der EU gilt als zentral. Rund 58 % der Bevölkerung befürchten künftige Probleme bei der Stromversorgung.",
+      "bern": "Aktuell keine Versorgungseinschränkung. Anhaltende Trockenheit und tiefe Pegel können die Wasserkraftproduktion und Kühlwasserverfügbarkeit saisonal beeinflussen – im Sommer ohne Versorgungsrelevanz, jedoch zu beobachten.",
+      "fazit": "Aktuell stabil; strukturelle Fragen betreffen primär den Winter."
     },
     {
       "id": "mobilitaet",
       "name": "Mobilität",
       "icon": "🚆",
-      "status": "beobachtung",
+      "status": "normal",
       "trend": "stabil",
-      "global": "Extreme Hitze kann Schieneninfrastruktur und Strassenbeläge beanspruchen; punktuelle Einschränkungen sind möglich.",
-      "schweiz": "Verkehrsinfrastruktur funktionsfähig; bei Hitze sind Gleisverwerfungen, Tempolimiten und Belagsschäden möglich.",
-      "bern": "ÖV (SBB, BLS, RBS) und Strassennetz funktionsfähig; keine grossflächige hitzebedingte Betriebseinschränkung recherchierbar. Bei nachfolgenden Gewittern sind lokale Störungen möglich.",
-      "fazit": "Mobilität gewährleistet; witterungsbedingte Einzelstörungen möglich."
+      "global": "Keine kantonsrelevanten globalen Störungen erfasst.",
+      "schweiz": "Verkehrssysteme funktionsfähig. Hitze kann punktuell Schieneninfrastruktur und Strassenbeläge belasten; tiefe Wasserstände beeinträchtigen die Rhein-/Binnenschifffahrt und damit die Güterlogistik (z. B. Treibstoffe).",
+      "bern": "Strassen- und ÖV-Netz uneingeschränkt verfügbar; allenfalls lokale, kurzzeitige hitze- oder unwetterbedingte Beeinträchtigungen.",
+      "fazit": "Betriebsfähig; witterungsbedingt punktuelle Risiken."
     },
     {
       "id": "bargeld",
@@ -87,10 +93,10 @@
       "icon": "💳",
       "status": "normal",
       "trend": "stabil",
-      "global": "Zahlungssysteme funktionsfähig; Hauptrisiko sind IT- und Cyber-Störungen, nicht witterungsbedingt. Keine aktuelle Störung recherchierbar.",
-      "schweiz": "Bargeldversorgung und elektronischer Zahlungsverkehr ohne erkennbare Beeinträchtigung.",
-      "bern": "Bargeldversorgung und Zahlungsverkehr im Kanton ohne erkennbare Beeinträchtigung.",
-      "fazit": "Funktionsfähig; Abhängigkeit von Strom und Telekom als latentes Querschnittsrisiko."
+      "global": "Keine aktuellen Störungen aus der Recherche bekannt.",
+      "schweiz": "Systeme stabil; latentes Risiko durch Cyberangriffe und Abhängigkeit von Strom und Telekommunikation (Kaskadenrisiko bei Energie-/Kommunikationsausfällen). Bargeldlogistik funktionsfähig.",
+      "bern": "Keine aktuellen Störungen bekannt; Zahlungsverkehr und Bargeldversorgung uneingeschränkt verfügbar.",
+      "fazit": "Voll funktionsfähig; Abhängigkeit von IT und Strom als latentes Risiko."
     },
     {
       "id": "kommunikation",
@@ -98,21 +104,21 @@
       "icon": "📡",
       "status": "normal",
       "trend": "stabil",
-      "global": "Telekom- und Mobilfunknetze funktionsfähig; keine aktuelle grossflächige Störung recherchierbar. Hauptrisiken sind Stromabhängigkeit sowie technische und Cyber-Ausfälle.",
-      "schweiz": "Kommunikationsinfrastruktur landesweit funktionsfähig ohne erkennbare Beeinträchtigung.",
-      "bern": "Kommunikationsinfrastruktur (Mobilfunk, Festnetz, Behördennetze, Alarmierung) ohne erkennbare Beeinträchtigung.",
-      "fazit": "Leistungsfähig; Resilienz hängt an Strom- und IT-Sicherheit."
+      "global": "Anhaltend erhöhte Cyber-Bedrohungslage gegen kritische Infrastrukturen.",
+      "schweiz": "Telekommunikationsnetze stabil. Cyberrisiken gegen Behörden und Betreiber bleiben erhöht; physische Netze grundsätzlich robust, jedoch abhängig von der Stromversorgung.",
+      "bern": "Keine erfassten Ausfälle; Versorgung gewährleistet.",
+      "fazit": "Funktionsfähig; Cyber als dauerhaftes Hintergrundrisiko."
     },
     {
       "id": "unterbringung",
       "name": "Unterbringung",
       "icon": "🏠",
-      "status": "beobachtung",
+      "status": "normal",
       "trend": "stabil",
-      "global": "Migrations- und Unterbringungsdruck bleibt ein strukturelles Dauerthema mit kapazitiver Anspannung; keine akute Zuspitzung recherchierbar.",
-      "schweiz": "Unterbringungssysteme belastbar, jedoch kapazitiv beansprucht.",
-      "bern": "Asyl- und Notunterbringungssystem belastbar, jedoch kapazitiv beansprucht; bei Hitze zusätzliche Anforderung an hitzetaugliche Unterkünfte. Keine akute Notlage erkennbar.",
-      "fazit": "Funktionsfähig unter anhaltender Auslastung."
+      "global": "Migrations- und Verdrängungsdynamiken bleiben global hoch.",
+      "schweiz": "Keine akute, durch die aktuelle Lage ausgelöste Unterbringungskrise ersichtlich. Asyl-/Unterbringungsstrukturen weiterhin gefordert, aber im Normalbetrieb.",
+      "bern": "Keine ereignisbedingte Sonderlage; hitzebedingt punktuell erhöhte Anforderungen an Kühlung und Schutz in Kollektivunterkünften.",
+      "fazit": "Leistungsfähig; keine ereignisbedingte Sonderlage."
     },
     {
       "id": "sicherheit",
@@ -120,10 +126,10 @@
       "icon": "🛡️",
       "status": "beobachtung",
       "trend": "steigend",
-      "global": "Erhöhte abstrakte Bedrohungslage (Terror, Cyber, hybride Bedrohungen) gemäss bekannter Lagebewertung; keine konkrete akute Bedrohung recherchierbar.",
-      "schweiz": "Sicherheitslage stabil; keine konkrete akute Bedrohung erkennbar.",
-      "bern": "Polizei- und Rettungskräfte einsatzbereit; hitzebedingt erhöhtes Aufkommen (Gewässer- und Badeunfälle, Vegetationsbrände, Hitzenotfälle) wahrscheinlich.",
-      "fazit": "Lage stabil; hitze- und unwetterbedingte Einsatzspitzen erwartbar."
+      "global": "Anhaltend angespannte geopolitische Lage; keine direkte kantonale Betroffenheit erfasst.",
+      "schweiz": "Innere Sicherheit stabil. Saisonal erhöht durch Naturgefahren: Waldbrandgefahr, Hitze, Unwetter und Gewitter mit lokalen Schäden.",
+      "bern": "Erhebliche Waldbrandgefahr im gesamten Kanton; Behörden rufen zu grösster Vorsicht auf, noch ohne generelles Feuerverbot (Stand 25./26. Juni). Blaulicht- und Bevölkerungsschutzorganisationen sind für Vegetationsbrände und Unwetterfolgen erhöht gefordert.",
+      "fazit": "Sicherheitslage stabil, aber wetter- und naturgefahrenbedingt erhöhtes Einsatzrisiko (Brand, Unwetter)."
     }
   ]
 }
