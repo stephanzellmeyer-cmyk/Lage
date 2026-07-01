@@ -1,0 +1,129 @@
+{
+  "id": "2026-07",
+  "monat": "Juli 2026",
+  "stand": "1. Juli 2026",
+  "entwurf": true,
+  "gesamtlage": {
+    "stufe": "beobachtung",
+    "titel": "Stabile, wetterdominierte Sommerlage mit strukturellen Beobachtungsfeldern",
+    "text": "Unter Annahme eines saisontypischen Julis ist die Bevölkerungsschutz-Lage im Kanton Bern insgesamt stabil und beherrschbar. Die Grundversorgung (Wasser, Lebensmittel, Energie) ist gesichert. Dominierende kurzfristige Risiken sind wetterinduziert (Gewitter, Hagel, Starkregen, Hitze, Trockenheit/Waldbrand, lokale Überflutungen und Murgänge). Strukturelle Beobachtungsfelder sind die medizinische Versorgung (Personal, Medikamente), die Cybersicherheit und die Unterbringung. Das Energie-Grundrisiko ist saisonal in den Winter verschoben. Hinweis: Diese Beurteilung ist szenariobasiert und beruht nicht auf verifizierten Live-Daten für Juli 2026; alle Angaben sind vor operativer Verwendung mit Primärquellen zu prüfen."
+  },
+  "aktuelleLage": [
+    "Der Monat Juli fällt in die Hochsommerperiode, die für den Kanton Bern durch ein charakteristisches Gefährdungsspektrum geprägt ist. Meteorologische Haupttreiber sind Hitzeperioden, Trockenheit sowie konvektive Wetterlagen mit Gewittern, Starkregen, Hagel und Sturmböen, die lokal zu Überflutungen, Murgängen und Infrastrukturschäden führen können.",
+    "Die Waldbrandgefahr ist in Trockenperioden erhöht, insbesondere in Voralpen- und Alpenlagen; kantonale Feuerverbote sind ein typisches Juli-Instrument. Schmelzwasser aus alpinen Einzugsgebieten stützt die Abflüsse, doch bei anhaltender Hitze kann die Niedrigwasserproblematik im Spätsommer zunehmen.",
+    "Hohe Besucherfrequenz im Berner Oberland und bei Sommerveranstaltungen erhöht saisonal die Belastung von Verkehr, Rettungswesen und Sicherheitskräften. In einem Normal-Juli ist die Lage stabil und beherrschbar, geprägt von punktuellen, wetterinduzierten Einzelereignissen ohne flächendeckende Versorgungsausfälle.",
+    "Wichtiger Hinweis: Die vorgesehene Live-Websuche konnte technisch nicht abgeschlossen werden. Es liegen keine tagesaktuellen, quellenbelegten Fakten für Juli 2026 vor. Alle Werte und Zustandsangaben sind Annahmen und müssen vor operativer Verwendung verifiziert werden."
+  ],
+  "entwicklungWochen": [
+    "Ohne Live-Daten können keine konkreten Ereignisse der Vorwochen belegt werden. Strukturell zu prüfen wäre der Verlauf der Hitze- und Niederschlagsbilanz, insbesondere eine mögliche Häufung von Gewitterlagen oder ein Trockenheitstrend.",
+    "Zu beobachten sind der Stand allfälliger Feuerverbote und Wasserentnahme-Einschränkungen sowie die Abfluss- und Pegelentwicklung an Aare, Thuner-/Brienzersee und im Bieler-/Neuenburgersee-System.",
+    "Ebenfalls relevant ist die Auslastung des Gesundheitswesens, insbesondere hitzebedingte Notfälle."
+  ],
+  "tendenzen": [
+    "Fortbestehende bis zunehmende Trockenheits- und Waldbrandthematik bei anhaltendem Hochdruckeinfluss.",
+    "Anhaltendes Gewitter- und Hagelrisiko als dominantes kurzfristiges Schadenpotenzial.",
+    "Niedrigwasser und Gewässererwärmung können sich verschärfen, mit Auswirkungen auf Kühlwasser, Fischerei und Schifffahrt.",
+    "Übergang zur Erntesaison in der Landwirtschaft mit ausgeprägter Wetterabhängigkeit der Erträge."
+  ],
+  "sektoren": [
+    {
+      "id": "wasser",
+      "name": "Wasserversorgung",
+      "icon": "💧",
+      "status": "beobachtung",
+      "trend": "steigend",
+      "global": "Regional bestehen starke Wasserstress-Situationen, etwa Dürren in Teilen Süd- und Osteuropas sowie im Mittelmeerraum, jedoch ohne direkte Versorgungswirkung auf die Schweiz.",
+      "schweiz": "Die Schweiz ist insgesamt wasserreich; im Hochsommer sind lokal Niedrigwasser und temporäre Entnahmeeinschränkungen möglich. Die Trinkwasserversorgung ist grundsätzlich gesichert.",
+      "bern": "Der Kanton verfügt über eine gute Ressourcenlage aus Grund-, Quellwasser und Seen. In Trockenperioden sind lokal Aufrufe zu sparsamem Verbrauch oder Bewässerungsverbote möglich.",
+      "fazit": "Grundversorgung gesichert; punktuelle lokale Einschränkungen sind saisontypisch."
+    },
+    {
+      "id": "lebensmittel",
+      "name": "Lebensmittelversorgung",
+      "icon": "🥖",
+      "status": "normal",
+      "trend": "stabil",
+      "global": "Die Märkte sind angespannt, aber funktionierend; geopolitische Risiken und Wetterextreme können Preise und Verfügbarkeit einzelner Güter beeinflussen.",
+      "schweiz": "Hohe Versorgungssicherheit durch Eigenproduktion, Importdiversifikation und Pflichtlager der wirtschaftlichen Landesversorgung. Knappheiten sind nicht zu erwarten.",
+      "bern": "Als starker Agrarkanton bestehen im Sommer wetterabhängige Ernterisiken durch Hagel und Trockenheit, mit Ertrags-, aber ohne Versorgungswirkung für die Bevölkerung.",
+      "fazit": "Versorgung durchgehend gewährleistet."
+    },
+    {
+      "id": "medizin",
+      "name": "Medizinische Versorgung",
+      "icon": "🏥",
+      "status": "beobachtung",
+      "trend": "stabil",
+      "global": "Anhaltende Lieferkettenrisiken bei Medikamenten und Medizinprodukten; punktuelle Wirkstoffengpässe sind ein Dauerthema.",
+      "schweiz": "Das gut ausgebaute System funktioniert, ist aber von wiederkehrenden Medikamentenengpässen bei einzelnen Präparaten und strukturellem Fachkräftemangel geprägt.",
+      "bern": "Universitäts- und Zentrumsspitäler sowie flächendeckende Grundversorgung sind vorhanden; im Sommer entstehen Zusatzbelastungen durch Hitzenotfälle, Freizeit- und Bergunfälle sowie ferienbedingte Personalabwesenheiten.",
+      "fazit": "Leistungsfähig, aber unter strukturellem Druck bei Personal und einzelnen Medikamenten; bei Hitzewelle temporär steigende Belastung."
+    },
+    {
+      "id": "energie",
+      "name": "Energieversorgung",
+      "icon": "⚡",
+      "status": "normal",
+      "trend": "stabil",
+      "global": "Die Energiemärkte sind volatil und geopolitisch beeinflusst; im Sommer ist die Nachfrage entspannter als im Winter.",
+      "schweiz": "Der Sommer ist die günstige Jahreszeit mit hoher Wasserkraft- und Solarproduktion. Die Stromversorgung ist im Juli komfortabel; das strukturelle Risiko liegt im Spätwinter mit Winterlücke und Importabhängigkeit.",
+      "bern": "Bedeutende Wasserkraft (Oberhasli/Grimsel) prägt den Kanton. Die Sommerlage ist stabil; bei extremer Hitze und Niedrigwasser sind theoretisch Kühl- und Produktionsrestriktionen einzelner Anlagen denkbar.",
+      "fazit": "Sommerlage komfortabel; das Grundrisiko ist saisonal in den Winter verschoben."
+    },
+    {
+      "id": "mobilitaet",
+      "name": "Mobilität",
+      "icon": "🚆",
+      "status": "normal",
+      "trend": "stabil",
+      "global": "Die Verkehrssysteme funktionieren, sind aber gegenüber Störungen sensibel.",
+      "schweiz": "Das dichte, zuverlässige ÖV-Netz trägt im Sommer eine hohe Reise- und Ferienverkehrsbelastung sowie eine intensive Baustellensaison auf Schiene und Strasse.",
+      "bern": "Als wichtiger Verkehrsknoten (Bahnhof Bern, A1/A6/A12, Alpentransit-Zubringer) verzeichnet der Kanton im Juli Ferien- und Ausflugsverkehr mit Stauspitzen sowie Wetterrisiken für Bergstrecken durch Murgänge und Sperrungen.",
+      "fazit": "Grundsätzlich leistungsfähig; wetter- und ferienbedingte lokale Störungen möglich."
+    },
+    {
+      "id": "bargeld",
+      "name": "Bargeldversorgung und Zahlungsverkehr",
+      "icon": "💳",
+      "status": "normal",
+      "trend": "stabil",
+      "global": "Zunehmende Cyber-Risiken für Finanzinfrastrukturen bei insgesamt hoher Systemresilienz.",
+      "schweiz": "Der Zahlungsverkehr ist robust und die Bargeldlogistik über SNB, Banken und Post stabil. Die Zahlungssysteme sind stark strom- und kommunikationsabhängig.",
+      "bern": "Es bestehen keine sektorspezifischen Sommerbesonderheiten; Hauptrisiko sind grossflächige Strom- und IT-Ausfälle oder Cyberangriffe.",
+      "fazit": "Stabil; die Abhängigkeit von Strom und Kommunikation bleibt ein latentes Risiko."
+    },
+    {
+      "id": "kommunikation",
+      "name": "Kommunikation",
+      "icon": "📡",
+      "status": "normal",
+      "trend": "steigend",
+      "global": "Steigende Cyber-Bedrohungslage bei kritischer Abhängigkeit von digitaler Infrastruktur.",
+      "schweiz": "Leistungsfähige Mobil-, Festnetze und Behördennetze wie Polycom sind vorhanden; punktuelle Ausfälle sind möglich, Cyber bleibt ein Dauerrisiko.",
+      "bern": "Gute Netzabdeckung, im Alpenraum topografisch bedingte Lücken. Unwetter können über Stromausfälle lokale Netzausfälle verursachen.",
+      "fazit": "Leistungsfähig; Cyber- und stromabhängige Ausfallrisiken bestehen, Cybertendenz leicht steigend."
+    },
+    {
+      "id": "unterbringung",
+      "name": "Unterbringung",
+      "icon": "🏠",
+      "status": "beobachtung",
+      "trend": "stabil",
+      "global": "Anhaltende Flucht- und Migrationsdynamik durch Konflikte und Klimafolgen.",
+      "schweiz": "Das Asyl- und Unterbringungssystem ist je nach Zugangszahlen zeitweise angespannt, die Strukturen funktionieren.",
+      "bern": "Kantonale Unterbringungsstrukturen und Notunterbringungskapazitäten des Zivilschutzes sind vorhanden. Die Auslastung schwankt mit den Zugangszahlen; wetterbedingte Grosslagen sind im Sommer untypisch, ausser bei Evakuierungen durch Unwetter oder Hochwasser.",
+      "fazit": "Funktionsfähig; die Auslastung ist beobachtungsbedürftig."
+    },
+    {
+      "id": "sicherheit",
+      "name": "Sicherheit",
+      "icon": "🛡️",
+      "status": "beobachtung",
+      "trend": "stabil",
+      "global": "Erhöhte, diffuse Bedrohungslage durch geopolitische Spannungen, Terrorismus sowie hybride und Cyber-Bedrohungen.",
+      "schweiz": "Insgesamt hohes Sicherheitsniveau; die Cyber- und Bedrohungslage wird von den Nachrichtendiensten als erhöht eingestuft. Grossanlässe erfordern Schutzdispositive.",
+      "bern": "Kantonspolizei und Partner sind leistungsfähig; im Sommer entsteht Mehrbelastung durch Grossveranstaltungen, Tourismus und Rettungseinsätze in Bergen und Gewässern, wobei Naturgefahren Ressourcen von Feuerwehr und Zivilschutz binden.",
+      "fazit": "Sicherheitslage beherrschbar, aber mit erhöhter allgemeiner Bedrohungslage und saisonaler Einsatzbelastung."
+    }
+  ]
+}
