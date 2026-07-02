@@ -1,41 +1,44 @@
 {
   "id": "2026-07",
   "monat": "Juli 2026",
-  "stand": "1. Juli 2026",
+  "stand": "2. Juli 2026",
   "entwurf": true,
   "gesamtlage": {
     "stufe": "beobachtung",
-    "titel": "Stabile, wetterdominierte Sommerlage mit strukturellen Beobachtungsfeldern",
-    "text": "Unter Annahme eines saisontypischen Julis ist die Bevölkerungsschutz-Lage im Kanton Bern insgesamt stabil und beherrschbar. Die Grundversorgung (Wasser, Lebensmittel, Energie) ist gesichert. Dominierende kurzfristige Risiken sind wetterinduziert (Gewitter, Hagel, Starkregen, Hitze, Trockenheit/Waldbrand, lokale Überflutungen und Murgänge). Strukturelle Beobachtungsfelder sind die medizinische Versorgung (Personal, Medikamente), die Cybersicherheit und die Unterbringung. Das Energie-Grundrisiko ist saisonal in den Winter verschoben. Hinweis: Diese Beurteilung ist szenariobasiert und beruht nicht auf verifizierten Live-Daten für Juli 2026; alle Angaben sind vor operativer Verwendung mit Primärquellen zu prüfen."
+    "titel": "Stabile Grundversorgung bei punktueller technischer Einschränkung der Alarmierung",
+    "text": "Die Bevölkerungsschutzlage im Kanton Bern ist im Juli 2026 grundsätzlich stabil. Die Grundversorgungssektoren funktionieren uneingeschränkt, die institutionelle Vorsorge (Schutzräume, Naturgefahren-Notfallpläne, Sicherheitsdienstpflicht) wurde weiter gestärkt. Einzige konkrete Schwachstelle ist eine schweizweite Störung der Sirenenfernsteuerung, die durch redundante Warnkanäle kompensiert wird."
   },
   "aktuelleLage": [
-    "Der Monat Juli fällt in die Hochsommerperiode, die für den Kanton Bern durch ein charakteristisches Gefährdungsspektrum geprägt ist. Meteorologische Haupttreiber sind Hitzeperioden, Trockenheit sowie konvektive Wetterlagen mit Gewittern, Starkregen, Hagel und Sturmböen, die lokal zu Überflutungen, Murgängen und Infrastrukturschäden führen können.",
-    "Die Waldbrandgefahr ist in Trockenperioden erhöht, insbesondere in Voralpen- und Alpenlagen; kantonale Feuerverbote sind ein typisches Juli-Instrument. Schmelzwasser aus alpinen Einzugsgebieten stützt die Abflüsse, doch bei anhaltender Hitze kann die Niedrigwasserproblematik im Spätsommer zunehmen.",
-    "Hohe Besucherfrequenz im Berner Oberland und bei Sommerveranstaltungen erhöht saisonal die Belastung von Verkehr, Rettungswesen und Sicherheitskräften. In einem Normal-Juli ist die Lage stabil und beherrschbar, geprägt von punktuellen, wetterinduzierten Einzelereignissen ohne flächendeckende Versorgungsausfälle.",
-    "Wichtiger Hinweis: Die vorgesehene Live-Websuche konnte technisch nicht abgeschlossen werden. Es liegen keine tagesaktuellen, quellenbelegten Fakten für Juli 2026 vor. Alle Werte und Zustandsangaben sind Annahmen und müssen vor operativer Verwendung verifiziert werden."
+    "Die Gesamtlage im Kanton Bern ist grundsätzlich stabil, ohne Hinweise auf eine ausserordentliche Lage oder akute Notlage.",
+    "Die periodische Schutzraumkontrolle über zehn Jahre zeigt bei rund 49'000 kontrollierten Schutzräumen eine ausreichende Kapazität für die Bevölkerung; die nächste Kontrolle startet 2026 mit jährlicher kantonaler Neuplanung der Zuteilung.",
+    "Für Naturgefahren besteht mit 189 Gemeinden eine standardisierte Notfallplanung, die Hochwasser, Lawinen und Murgänge koordiniert bewältigen soll.",
+    "Eine Panne bei der Kommunikation mit den Sirenenfernsteuerungsgeräten verhindert aktuell die Auslösung der rund 5'000 stationären Sirenen aus den Einsatzzentralen der Kantonspolizeien; Alertswiss, Radiomeldungen und rund 2'200 mobile Sirenen stehen jedoch weiterhin uneingeschränkt zur Verfügung.",
+    "Der Bundesrat hat am 24. Juni 2026 Eckwerte zur Einführung einer Sicherheitsdienstpflicht beschlossen, um die personellen Bestände von Armee und Zivilschutz langfristig zu sichern."
   ],
   "entwicklungWochen": [
-    "Ohne Live-Daten können keine konkreten Ereignisse der Vorwochen belegt werden. Strukturell zu prüfen wäre der Verlauf der Hitze- und Niederschlagsbilanz, insbesondere eine mögliche Häufung von Gewitterlagen oder ein Trockenheitstrend.",
-    "Zu beobachten sind der Stand allfälliger Feuerverbote und Wasserentnahme-Einschränkungen sowie die Abfluss- und Pegelentwicklung an Aare, Thuner-/Brienzersee und im Bieler-/Neuenburgersee-System.",
-    "Ebenfalls relevant ist die Auslastung des Gesundheitswesens, insbesondere hitzebedingte Notfälle."
+    "April 2026: Kanton und 189 Gemeinden erarbeiten standardisierte Notfallplanungen für Naturgefahren, orientiert an einer Farbskala von Beobachtung bis Eskalation.",
+    "Grundlage bilden die seit 2014 bestehenden Gefahrenkarten sowie das Referenzereignis des Unwetters vom August 2024 in Brienz mit über 150 beschädigten Gebäuden.",
+    "Juni 2026: Der Bundesrat beschliesst Eckwerte zur Sicherheitsdienstpflicht zur Stärkung von Zivilschutz- und Armeebeständen.",
+    "Aktuell: Schweizweite Störung der Sirenenfernsteuerung wird gemeldet, Ersatzkanäle bleiben funktionsfähig.",
+    "Ab 2025/2026 übernimmt der Kanton anstelle der Gemeinden die jährliche Zuteilungsplanung für Schutzräume, mit Kriterien wie kurzen Wegen und bevorzugter Zuweisung für Kinder und ältere Menschen."
   ],
   "tendenzen": [
-    "Fortbestehende bis zunehmende Trockenheits- und Waldbrandthematik bei anhaltendem Hochdruckeinfluss.",
-    "Anhaltendes Gewitter- und Hagelrisiko als dominantes kurzfristiges Schadenpotenzial.",
-    "Niedrigwasser und Gewässererwärmung können sich verschärfen, mit Auswirkungen auf Kühlwasser, Fischerei und Schifffahrt.",
-    "Übergang zur Erntesaison in der Landwirtschaft mit ausgeprägter Wetterabhängigkeit der Erträge."
+    "Saisonal ist im Juli und August mit erhöhtem Risiko für Starkniederschläge, Hochwasser und Murgänge im Berner Oberland sowie sommerliche Trockenperioden zu rechnen; die neu standardisierten Notfallplanungen erhöhen die Reaktionsfähigkeit.",
+    "Die neue kantonale Zuteilungssystematik für Schutzräume befindet sich in der Umsetzung, weitere kommunikative Schritte des zuständigen Amts sind zu erwarten.",
+    "Die Behebung der Sirenenfernsteuerungsstörung ist weiter zu verfolgen; bis zur vollständigen Wiederherstellung bleibt die Redundanz über Alertswiss, Radio und mobile Sirenen sicherheitsrelevant.",
+    "Die Umsetzung der Eckwerte zur Sicherheitsdienstpflicht dürfte politisch und medial weiterverfolgt werden, mit möglichen Auswirkungen auf die langfristige Personalplanung des Zivilschutzes im Kanton Bern."
   ],
   "sektoren": [
     {
       "id": "wasser",
       "name": "Wasserversorgung",
       "icon": "💧",
-      "status": "beobachtung",
-      "trend": "steigend",
-      "global": "Regional bestehen starke Wasserstress-Situationen, etwa Dürren in Teilen Süd- und Osteuropas sowie im Mittelmeerraum, jedoch ohne direkte Versorgungswirkung auf die Schweiz.",
-      "schweiz": "Die Schweiz ist insgesamt wasserreich; im Hochsommer sind lokal Niedrigwasser und temporäre Entnahmeeinschränkungen möglich. Die Trinkwasserversorgung ist grundsätzlich gesichert.",
-      "bern": "Der Kanton verfügt über eine gute Ressourcenlage aus Grund-, Quellwasser und Seen. In Trockenperioden sind lokal Aufrufe zu sparsamem Verbrauch oder Bewässerungsverbote möglich.",
-      "fazit": "Grundversorgung gesichert; punktuelle lokale Einschränkungen sind saisontypisch."
+      "status": "normal",
+      "trend": "stabil",
+      "global": "In vielen Regionen der Nordhalbkugel besteht saisonal erhöhtes Trockenheits- und Dürrerisiko, was regional zu Nutzungskonflikten führen kann.",
+      "schweiz": "Die dezentrale, auf Grundwasser und Seen basierende Wasserversorgung gilt als sehr robust; sommerliche Trockenperioden können lokal bei quellwasserabhängigen Gemeinden zu vorübergehenden Einschränkungen führen.",
+      "bern": "Keine aktuellen Meldungen zu Versorgungsengpässen; die Wasserversorgung im Kanton gilt als gut diversifiziert.",
+      "fazit": "Keine Hinweise auf eine Beeinträchtigung im Berichtsmonat."
     },
     {
       "id": "lebensmittel",
@@ -43,10 +46,10 @@
       "icon": "🥖",
       "status": "normal",
       "trend": "stabil",
-      "global": "Die Märkte sind angespannt, aber funktionierend; geopolitische Risiken und Wetterextreme können Preise und Verfügbarkeit einzelner Güter beeinflussen.",
-      "schweiz": "Hohe Versorgungssicherheit durch Eigenproduktion, Importdiversifikation und Pflichtlager der wirtschaftlichen Landesversorgung. Knappheiten sind nicht zu erwarten.",
-      "bern": "Als starker Agrarkanton bestehen im Sommer wetterabhängige Ernterisiken durch Hagel und Trockenheit, mit Ertrags-, aber ohne Versorgungswirkung für die Bevölkerung.",
-      "fazit": "Versorgung durchgehend gewährleistet."
+      "global": "Globale Lieferketten bleiben grundsätzlich funktionsfähig, sind aber strukturell sensitiv gegenüber geopolitischen Spannungen und Wetterextremen.",
+      "schweiz": "Hoher Selbstversorgungsgrad bei Grundnahrungsmitteln, im Sommer generell unproblematische saisonale Verfügbarkeit durch inländische Ernte.",
+      "bern": "Keine spezifischen aktuellen Meldungen zu Versorgungsstörungen recherchiert.",
+      "fazit": "Stabile Versorgungslage ohne erkennbare Störungsfaktoren."
     },
     {
       "id": "medizin",
@@ -54,10 +57,10 @@
       "icon": "🏥",
       "status": "beobachtung",
       "trend": "stabil",
-      "global": "Anhaltende Lieferkettenrisiken bei Medikamenten und Medizinprodukten; punktuelle Wirkstoffengpässe sind ein Dauerthema.",
-      "schweiz": "Das gut ausgebaute System funktioniert, ist aber von wiederkehrenden Medikamentenengpässen bei einzelnen Präparaten und strukturellem Fachkräftemangel geprägt.",
-      "bern": "Universitäts- und Zentrumsspitäler sowie flächendeckende Grundversorgung sind vorhanden; im Sommer entstehen Zusatzbelastungen durch Hitzenotfälle, Freizeit- und Bergunfälle sowie ferienbedingte Personalabwesenheiten.",
-      "fazit": "Leistungsfähig, aber unter strukturellem Druck bei Personal und einzelnen Medikamenten; bei Hitzewelle temporär steigende Belastung."
+      "global": "Kein aussergewöhnliches globales Gesundheitsereignis mit Bezug zur Schweiz identifiziert.",
+      "schweiz": "Der chronische Fachkräftemangel im Gesundheitswesen bleibt ein strukturelles Thema; die Sommerferienzeit führt saisonal regelmässig zu Personalengpässen in Spitälern und Rettungsdiensten.",
+      "bern": "Keine aktuelle Meldung zu akuten Kapazitätsengpässen in Berner Spitälern; ferienbedingte Personalengpässe sind im Juli grundsätzlich zu erwarten.",
+      "fazit": "Grundversorgung sichergestellt, saisonal reduzierte Personalreserven."
     },
     {
       "id": "energie",
@@ -65,21 +68,21 @@
       "icon": "⚡",
       "status": "normal",
       "trend": "stabil",
-      "global": "Die Energiemärkte sind volatil und geopolitisch beeinflusst; im Sommer ist die Nachfrage entspannter als im Winter.",
-      "schweiz": "Der Sommer ist die günstige Jahreszeit mit hoher Wasserkraft- und Solarproduktion. Die Stromversorgung ist im Juli komfortabel; das strukturelle Risiko liegt im Spätwinter mit Winterlücke und Importabhängigkeit.",
-      "bern": "Bedeutende Wasserkraft (Oberhasli/Grimsel) prägt den Kanton. Die Sommerlage ist stabil; bei extremer Hitze und Niedrigwasser sind theoretisch Kühl- und Produktionsrestriktionen einzelner Anlagen denkbar.",
-      "fazit": "Sommerlage komfortabel; das Grundrisiko ist saisonal in den Winter verschoben."
+      "global": "Energiemärkte bleiben grundsätzlich von geopolitischen Entwicklungen abhängig; keine spezifische aktuelle Krisenmeldung recherchiert.",
+      "schweiz": "Der Sommer ist für die Stromversorgung aufgrund hoher Wasserkraftproduktion traditionell die unkritischste Jahreszeit; die kritische Phase liegt saisonal im Winter.",
+      "bern": "Keine aktuellen Meldungen zu Versorgungsengpässen; die BKW versorgt den Kanton als Hauptanbieterin.",
+      "fazit": "Saisonal günstige Versorgungslage."
     },
     {
       "id": "mobilitaet",
       "name": "Mobilität",
       "icon": "🚆",
-      "status": "normal",
+      "status": "beobachtung",
       "trend": "stabil",
-      "global": "Die Verkehrssysteme funktionieren, sind aber gegenüber Störungen sensibel.",
-      "schweiz": "Das dichte, zuverlässige ÖV-Netz trägt im Sommer eine hohe Reise- und Ferienverkehrsbelastung sowie eine intensive Baustellensaison auf Schiene und Strasse.",
-      "bern": "Als wichtiger Verkehrsknoten (Bahnhof Bern, A1/A6/A12, Alpentransit-Zubringer) verzeichnet der Kanton im Juli Ferien- und Ausflugsverkehr mit Stauspitzen sowie Wetterrisiken für Bergstrecken durch Murgänge und Sperrungen.",
-      "fazit": "Grundsätzlich leistungsfähig; wetter- und ferienbedingte lokale Störungen möglich."
+      "global": "Hohe internationale Reisetätigkeit während der Sommersaison.",
+      "schweiz": "Erfahrungsgemäss hohe Auslastung von Bahn- und Strassennetz durch Tourismus- und Ferienverkehr sowie saisonale Baustellentätigkeit.",
+      "bern": "Das Berner Oberland ist als touristischer Hotspot saisonal stark ausgelastet; die Alpenpässe im Kantonsgebiet sind geöffnet und relevant für Ausweichverkehr.",
+      "fazit": "Erhöhte Auslastung, aber keine strukturelle Beeinträchtigung erkennbar."
     },
     {
       "id": "bargeld",
@@ -87,43 +90,43 @@
       "icon": "💳",
       "status": "normal",
       "trend": "stabil",
-      "global": "Zunehmende Cyber-Risiken für Finanzinfrastrukturen bei insgesamt hoher Systemresilienz.",
-      "schweiz": "Der Zahlungsverkehr ist robust und die Bargeldlogistik über SNB, Banken und Post stabil. Die Zahlungssysteme sind stark strom- und kommunikationsabhängig.",
-      "bern": "Es bestehen keine sektorspezifischen Sommerbesonderheiten; Hauptrisiko sind grossflächige Strom- und IT-Ausfälle oder Cyberangriffe.",
-      "fazit": "Stabil; die Abhängigkeit von Strom und Kommunikation bleibt ein latentes Risiko."
+      "global": "Fortschreitende Digitalisierung des Zahlungsverkehrs bei grundsätzlichem, aber nicht akutem Cyber-Risiko für Finanzinfrastrukturen.",
+      "schweiz": "Die Schweizerische Nationalbank gewährleistet strukturell die Bargeldversorgung; keine aktuelle Störungsmeldung recherchiert.",
+      "bern": "Keine spezifischen Meldungen zu Bancomat- oder Zahlungsverkehrsausfällen.",
+      "fazit": "Stabile Versorgungslage."
     },
     {
       "id": "kommunikation",
       "name": "Kommunikation",
       "icon": "📡",
-      "status": "normal",
-      "trend": "steigend",
-      "global": "Steigende Cyber-Bedrohungslage bei kritischer Abhängigkeit von digitaler Infrastruktur.",
-      "schweiz": "Leistungsfähige Mobil-, Festnetze und Behördennetze wie Polycom sind vorhanden; punktuelle Ausfälle sind möglich, Cyber bleibt ein Dauerrisiko.",
-      "bern": "Gute Netzabdeckung, im Alpenraum topografisch bedingte Lücken. Unwetter können über Stromausfälle lokale Netzausfälle verursachen.",
-      "fazit": "Leistungsfähig; Cyber- und stromabhängige Ausfallrisiken bestehen, Cybertendenz leicht steigend."
+      "status": "eingeschraenkt",
+      "trend": "stabil",
+      "global": "Die globale Bedrohungslage im Cyberraum bleibt strukturell erhöht.",
+      "schweiz": "Eine technische Störung verhindert aktuell die Auslösung der rund 5'000 stationären Sirenen aus den Einsatzzentralen der Kantonspolizeien; Alertswiss, verbreitungspflichtige Radiomeldungen und rund 2'200 mobile Sirenen stehen weiterhin uneingeschränkt zur Verfügung.",
+      "bern": "Die Kantonspolizei Bern ist als Teil des nationalen Systems von der Sirenenfernsteuerungsstörung mitbetroffen, die Alarmierungsfähigkeit über redundante Kanäle bleibt jedoch erhalten.",
+      "fazit": "Punktuelle technische Einschränkung im Primärkanal der Sirenenalarmierung, kompensiert durch redundante Warnkanäle; übrige Kommunikationsinfrastruktur ohne erkennbare Beeinträchtigung."
     },
     {
       "id": "unterbringung",
       "name": "Unterbringung",
       "icon": "🏠",
-      "status": "beobachtung",
+      "status": "normal",
       "trend": "stabil",
-      "global": "Anhaltende Flucht- und Migrationsdynamik durch Konflikte und Klimafolgen.",
-      "schweiz": "Das Asyl- und Unterbringungssystem ist je nach Zugangszahlen zeitweise angespannt, die Strukturen funktionieren.",
-      "bern": "Kantonale Unterbringungsstrukturen und Notunterbringungskapazitäten des Zivilschutzes sind vorhanden. Die Auslastung schwankt mit den Zugangszahlen; wetterbedingte Grosslagen sind im Sommer untypisch, ausser bei Evakuierungen durch Unwetter oder Hochwasser.",
-      "fazit": "Funktionsfähig; die Auslastung ist beobachtungsbedürftig."
+      "global": "Keine spezifische aktuelle Entwicklung mit direktem Bezug zum Kanton Bern recherchiert.",
+      "schweiz": "Der Bundesrat verfolgt mit der Sicherheitsdienstpflicht auch das Ziel, den Bevölkerungsschutz und damit indirekt die Schutzinfrastruktur langfristig zu stärken.",
+      "bern": "Die periodische Schutzraumkontrolle bei rund 49'000 kontrollierten Schutzräumen bestätigt ausreichende Schutzplätze für die ständige Wohnbevölkerung; der Kanton unterstützt zudem Gemeinden bei der Umnutzung über den Ersatzbeitragsfonds.",
+      "fazit": "Bezüglich Notfall-Schutzinfrastruktur ist die Kapazität für die ständige Wohnbevölkerung ausreichend; zur regulären Unterbringungssituation liegen keine aktuellen kantonsspezifischen Daten vor."
     },
     {
       "id": "sicherheit",
       "name": "Sicherheit",
       "icon": "🛡️",
       "status": "beobachtung",
-      "trend": "stabil",
-      "global": "Erhöhte, diffuse Bedrohungslage durch geopolitische Spannungen, Terrorismus sowie hybride und Cyber-Bedrohungen.",
-      "schweiz": "Insgesamt hohes Sicherheitsniveau; die Cyber- und Bedrohungslage wird von den Nachrichtendiensten als erhöht eingestuft. Grossanlässe erfordern Schutzdispositive.",
-      "bern": "Kantonspolizei und Partner sind leistungsfähig; im Sommer entsteht Mehrbelastung durch Grossveranstaltungen, Tourismus und Rettungseinsätze in Bergen und Gewässern, wobei Naturgefahren Ressourcen von Feuerwehr und Zivilschutz binden.",
-      "fazit": "Sicherheitslage beherrschbar, aber mit erhöhter allgemeiner Bedrohungslage und saisonaler Einsatzbelastung."
+      "trend": "steigend",
+      "global": "Anhaltende geopolitische Spannungen in Europa prägen die sicherheitspolitische Wahrnehmung.",
+      "schweiz": "Der Bundesrat hat am 24. Juni 2026 Eckwerte zur Einführung einer Sicherheitsdienstpflicht beschlossen, um die personellen Bestände von Armee und Zivilschutz langfristig zu sichern; Schutzbauten gelten als zentrales Element des Bevölkerungsschutzes im aktuellen europäischen Sicherheitsumfeld.",
+      "bern": "Der Kanton setzt die Schutzraum- und Notfallplanungsstrategie konsequent um; keine Hinweise auf akute sicherheitsrelevante Vorfälle im Berichtsmonat.",
+      "fazit": "Kein akutes Sicherheitsereignis, jedoch spürbare politische und institutionelle Reaktion auf ein als angespannt wahrgenommenes europäisches Sicherheitsumfeld."
     }
   ]
 }
