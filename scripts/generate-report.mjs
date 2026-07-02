@@ -22,7 +22,11 @@ import { fileURLToPath } from "node:url";
 import path from "node:path";
 import Anthropic from "@anthropic-ai/sdk";
 
-const MODEL = process.env.LAGE_MODEL || "claude-opus-4-8";
+// Standardmodell für die automatische Berichtserstellung. Überschreibbar via
+// Umgebungsvariable LAGE_MODEL (z. B. im GitHub-Actions-Workflow als
+// Repository-Variable LAGE_MODEL konfigurierbar, ohne diese Datei zu ändern).
+const STANDARD_MODELL = "claude-sonnet-5";
+const MODEL = process.env.LAGE_MODEL || STANDARD_MODELL;
 
 const DATA_DIR = path.resolve(fileURLToPath(import.meta.url), "../../data");
 
@@ -255,6 +259,7 @@ async function main() {
   }
   const monat = resolveMonth();
   console.log(`▶ Generiere Entwurf für ${monat.label} (${monat.id}) …`);
+  console.log(`  Modell: ${MODEL}${process.env.LAGE_MODEL ? " (via LAGE_MODEL überschrieben)" : " (Standard)"}`);
 
   console.log("  1/3  Recherche mit Websuche …");
   const rechercheText = await recherche(monat.label);

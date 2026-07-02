@@ -106,12 +106,22 @@ ANTHROPIC_API_KEY=… npm run generate            # aktueller Monat
 ANTHROPIC_API_KEY=… node scripts/generate-report.mjs 2026-07   # bestimmter Monat
 ```
 
-Optional: `LAGE_MODEL` setzt das verwendete Claude-Modell (Standard: aktuelles Modell).
+### Verwendetes Modell
+
+Standardmässig wird **Claude Sonnet 5** (`claude-sonnet-5`) verwendet – sichtbar
+und konfigurierbar über die Umgebungsvariable `LAGE_MODEL`:
+
+```bash
+LAGE_MODEL=claude-opus-4-8 ANTHROPIC_API_KEY=… node scripts/generate-report.mjs
+```
 
 ### Automatischer Betrieb (GitHub Actions)
 
-- **Secret hinterlegen:** Repo → *Settings → Secrets and variables → Actions* →
-  `ANTHROPIC_API_KEY` anlegen.
+- **Secret hinterlegen:** Repo → *Settings → Secrets and variables → Actions →
+  Secrets* → `ANTHROPIC_API_KEY` anlegen.
+- **Modell ändern (optional):** Repo → *Settings → Secrets and variables → Actions →
+  Variables* → `LAGE_MODEL` anlegen (z. B. `claude-opus-4-8`). Ohne diese Variable
+  greift der im Workflow hinterlegte Standard `claude-sonnet-5`.
 - Der Workflow läuft am **1. jedes Monats** automatisch und kann unter
   *Actions → Monatlicher Lagebericht* auch manuell gestartet werden (mit optionaler
   Monatsangabe `JJJJ-MM`).
