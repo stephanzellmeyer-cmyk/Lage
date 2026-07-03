@@ -1,5 +1,7 @@
 # Bevölkerungsschutz-Lage Kanton Bern
 
+<!-- Deployment-Trigger: leerer Commit zur Auslösung eines neuen GitHub-Pages-Builds nach fehlgeschlagenem Deployment -->
+
 Statische Webseite zur **monatlichen Darstellung der Bevölkerungsschutz-Lage** im Kanton Bern.
 Sie zeigt je Berichtsmonat:
 
