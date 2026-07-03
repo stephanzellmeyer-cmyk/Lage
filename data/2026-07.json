@@ -1,32 +1,40 @@
 {
   "id": "2026-07",
   "monat": "Juli 2026",
-  "stand": "2. Juli 2026",
+  "stand": "3. Juli 2026",
   "entwurf": true,
   "gesamtlage": {
     "stufe": "beobachtung",
-    "titel": "Stabile Grundversorgung bei punktueller technischer Einschränkung der Alarmierung",
-    "text": "Die Bevölkerungsschutzlage im Kanton Bern ist im Juli 2026 grundsätzlich stabil. Die Grundversorgungssektoren funktionieren uneingeschränkt, die institutionelle Vorsorge (Schutzräume, Naturgefahren-Notfallpläne, Sicherheitsdienstpflicht) wurde weiter gestärkt. Einzige konkrete Schwachstelle ist eine schweizweite Störung der Sirenenfernsteuerung, die durch redundante Warnkanäle kompensiert wird."
+    "titel": "Nachwirkungen einer historischen Hitzewelle und schwerer Sommergewitter",
+    "text": "Der Kanton Bern hat im Berichtszeitraum eine aussergewöhnlich lange und intensive Hitzewelle sowie deren gewittriges Ende mit Starkregen und Hagel erlebt. Die Grundversorgung blieb durchgehend stabil, punktuelle Beeinträchtigungen bei Mobilität, Kommunikation (Sirenenfernsteuerung) und Gesundheit sowie ein ungeklärter Drohnenvorfall erfordern erhöhte Aufmerksamkeit."
   },
   "aktuelleLage": [
-    "Die Gesamtlage im Kanton Bern ist grundsätzlich stabil, ohne Hinweise auf eine ausserordentliche Lage oder akute Notlage.",
-    "Die periodische Schutzraumkontrolle über zehn Jahre zeigt bei rund 49'000 kontrollierten Schutzräumen eine ausreichende Kapazität für die Bevölkerung; die nächste Kontrolle startet 2026 mit jährlicher kantonaler Neuplanung der Zuteilung.",
-    "Für Naturgefahren besteht mit 189 Gemeinden eine standardisierte Notfallplanung, die Hochwasser, Lawinen und Murgänge koordiniert bewältigen soll.",
-    "Eine Panne bei der Kommunikation mit den Sirenenfernsteuerungsgeräten verhindert aktuell die Auslösung der rund 5'000 stationären Sirenen aus den Einsatzzentralen der Kantonspolizeien; Alertswiss, Radiomeldungen und rund 2'200 mobile Sirenen stehen jedoch weiterhin uneingeschränkt zur Verfügung.",
-    "Der Bundesrat hat am 24. Juni 2026 Eckwerte zur Einführung einer Sicherheitsdienstpflicht beschlossen, um die personellen Bestände von Armee und Zivilschutz langfristig zu sichern."
+    "Die Lage im Kanton Bern ist geprägt von den Nachwirkungen einer aussergewöhnlich langen und intensiven Hitzewelle, die Mitte Juni begann und Ende Juni/Anfang Juli durch schwere Gewitter mit Starkregen, Hagel und Blitzschlag beendet wurde.",
+    "Die Kernversorgungsbereiche Wasser, Energie, Lebensmittel und Bargeld blieben während des gesamten Berichtszeitraums funktionsfähig.",
+    "Punktuelle, kurzzeitige Beeinträchtigungen betrafen den öffentlichen Verkehr (Tramausfall Bern), einzelne Gebäude (Wasserschäden) sowie auf nationaler Ebene die zentrale Sirenenfernsteuerung und die Cyberbedrohungslage.",
+    "Ein ungeklärter Drohnenvorfall über einer Schweizer Militäranlage sorgt zusätzlich für erhöhte sicherheitspolitische Aufmerksamkeit.",
+    "Personenschäden im Zusammenhang mit den Unwetterereignissen sind gemäss vorliegenden Quellen nicht bekannt."
   ],
   "entwicklungWochen": [
-    "April 2026: Kanton und 189 Gemeinden erarbeiten standardisierte Notfallplanungen für Naturgefahren, orientiert an einer Farbskala von Beobachtung bis Eskalation.",
-    "Grundlage bilden die seit 2014 bestehenden Gefahrenkarten sowie das Referenzereignis des Unwetters vom August 2024 in Brienz mit über 150 beschädigten Gebäuden.",
-    "Juni 2026: Der Bundesrat beschliesst Eckwerte zur Sicherheitsdienstpflicht zur Stärkung von Zivilschutz- und Armeebeständen.",
-    "Aktuell: Schweizweite Störung der Sirenenfernsteuerung wird gemeldet, Ersatzkanäle bleiben funktionsfähig.",
-    "Ab 2025/2026 übernimmt der Kanton anstelle der Gemeinden die jährliche Zuteilungsplanung für Schutzräume, mit Kriterien wie kurzen Wegen und bevorzugter Zuweisung für Kinder und ältere Menschen."
+    "5.–12. Juni: Kühle, wechselhafte Witterung («Schafskälte»); am 10. Juni Höchstwerte in Bern von nur rund 15 Grad, Neuschnee auf Säntis und Weissfluhjoch.",
+    "13./14. Juni: Umschwung zu hochsommerlichen Temperaturen; Beginn der ersten grossen Hitzewelle des Jahres 2026.",
+    "22. Juni: Hitzerekorde in der Nordwest- und Westschweiz, u. a. Bern/Zollikofen 34,5 °C (bisheriger Rekord 34,4 °C aus 2019); Bund weitet Hitzewarnstufe 4 (rot) auf weitere Regionen aus.",
+    "24. Juni: Weitere Allzeitrekorde in Buchs/Aarau (37,2 °C) und Visp VS (36,8 °C).",
+    "27. Juni (Siebenschläfertag): Erneut Rekordwerte von 34–39 Grad.",
+    "28. Juni: Höhepunkt der Hitzewelle mit 39,0 °C in Basel-Binningen und Beznau; in Bern/Zollikofen höchstes je gemessenes Tagesminimum in der Nacht.",
+    "29. Juni: Kaltfront beendet die Hitzewelle auf der Alpennordseite.",
+    "30. Juni/1. Juli: Schwere Gewitter über der ganzen Schweiz mit über 20'000 Blitzen, Starkregen, Hagel, umgestürzten Bäumen und überschwemmten Gebäuden im Kanton Bern; Wasserschaden im Museum für Kommunikation Bern; Schlammlawine im Wallis legt Trams in Bern zeitweise lahm; in Zürich rund 700 Feuerwehreinsätze und 70 annullierte/verspätete/umgeleitete Flüge; im Kanton Uri Murgänge und ein Felssturz bei Seedorf.",
+    "30. Juni: NCSC warnt vor gefälschten Videokonferenz-Einladungen (Zoom u. a.) mit Schadsoftware.",
+    "1. Juli: NCSC warnt vor Phishing-Mails im Namen der «E-Vignette».",
+    "Im Berichtszeitraum, unbestimmt: Sichtung mehrerer unbekannter Drohnen über einer Schweizer Militäranlage sowie eine schweizweite Panne bei der Fernsteuerung der rund 5'000 stationären Sirenen (Ersatzkanäle blieben verfügbar).",
+    "2./3. Juli: Wetterberuhigung, überwiegend sonnig bei rund 26 Grad in Bern."
   ],
   "tendenzen": [
-    "Saisonal ist im Juli und August mit erhöhtem Risiko für Starkniederschläge, Hochwasser und Murgänge im Berner Oberland sowie sommerliche Trockenperioden zu rechnen; die neu standardisierten Notfallplanungen erhöhen die Reaktionsfähigkeit.",
-    "Die neue kantonale Zuteilungssystematik für Schutzräume befindet sich in der Umsetzung, weitere kommunikative Schritte des zuständigen Amts sind zu erwarten.",
-    "Die Behebung der Sirenenfernsteuerungsstörung ist weiter zu verfolgen; bis zur vollständigen Wiederherstellung bleibt die Redundanz über Alertswiss, Radio und mobile Sirenen sicherheitsrelevant.",
-    "Die Umsetzung der Eckwerte zur Sicherheitsdienstpflicht dürfte politisch und medial weiterverfolgt werden, mit möglichen Auswirkungen auf die langfristige Personalplanung des Zivilschutzes im Kanton Bern."
+    "Nach einer kühleren ersten Juliwoche steigt mit jeder neuen Hochdrucklage die Wahrscheinlichkeit einer neuen Hitzewelle; bei einer erneuten Omegalage sind Höchstwerte um oder über 35 °C jederzeit möglich.",
+    "Das Gewitterereignis vom 30.6./1.7. zeigt ein erhöhtes Risiko für lokale Unwetter mit Sachschäden; ähnliche Kurzereignisse sind im weiteren Juli wahrscheinlich.",
+    "Der Status der Instandsetzung der zentralen Sirenenfernauslösung ist unklar; bis zur Behebung bleibt der Kanton Bern auf Redundanzsysteme wie Alertswiss, Radio, mobile Sirenen und lokale Vor-Ort-Auslösung angewiesen.",
+    "Anhaltende Phishing- und Malware-Kampagnen rund um vertraute Kommunikationskanäle wie Videokonferenz-Tools und die E-Vignette sind weiterhin zu erwarten.",
+    "Politische Forderungen nach Massnahmen gegen Drohnenvorfälle könnten die Debatte im Juli weiter befeuern; konkrete Auswirkungen auf den Kanton Bern sind aus den vorliegenden Quellen nicht ableitbar."
   ],
   "sektoren": [
     {
@@ -35,10 +43,10 @@
       "icon": "💧",
       "status": "normal",
       "trend": "stabil",
-      "global": "In vielen Regionen der Nordhalbkugel besteht saisonal erhöhtes Trockenheits- und Dürrerisiko, was regional zu Nutzungskonflikten führen kann.",
-      "schweiz": "Die dezentrale, auf Grundwasser und Seen basierende Wasserversorgung gilt als sehr robust; sommerliche Trockenperioden können lokal bei quellwasserabhängigen Gemeinden zu vorübergehenden Einschränkungen führen.",
-      "bern": "Keine aktuellen Meldungen zu Versorgungsengpässen; die Wasserversorgung im Kanton gilt als gut diversifiziert.",
-      "fazit": "Keine Hinweise auf eine Beeinträchtigung im Berichtsmonat."
+      "global": "Keine spezifischen, im Berichtszeitraum aufgetretenen Ereignisse identifiziert.",
+      "schweiz": "Die Hitzewelle erhöhte kurzzeitig den Wasserbedarf; die Gewitter vom 30.6./1.7. sorgten lokal für sehr hohe Niederschlagsmengen ohne Versorgungsengpässe.",
+      "bern": "Keine Berichte über Wasserknappheit; punktuelle Überflutungen wie der Wasserschaden im Museum für Kommunikation entstanden durch Starkregen, nicht durch Mangel.",
+      "fazit": "Sektor wurde nicht durch Knappheit, sondern kurzzeitig durch Starkregen lokal punktuell belastet."
     },
     {
       "id": "lebensmittel",
@@ -46,10 +54,10 @@
       "icon": "🥖",
       "status": "normal",
       "trend": "stabil",
-      "global": "Globale Lieferketten bleiben grundsätzlich funktionsfähig, sind aber strukturell sensitiv gegenüber geopolitischen Spannungen und Wetterextremen.",
-      "schweiz": "Hoher Selbstversorgungsgrad bei Grundnahrungsmitteln, im Sommer generell unproblematische saisonale Verfügbarkeit durch inländische Ernte.",
-      "bern": "Keine spezifischen aktuellen Meldungen zu Versorgungsstörungen recherchiert.",
-      "fazit": "Stabile Versorgungslage ohne erkennbare Störungsfaktoren."
+      "global": "Keine relevanten Ereignisse im Berichtszeitraum identifiziert.",
+      "schweiz": "Keine relevanten Ereignisse im Berichtszeitraum identifiziert.",
+      "bern": "Keine relevanten Ereignisse im Berichtszeitraum identifiziert.",
+      "fazit": "Kein Handlungsbedarf erkennbar."
     },
     {
       "id": "medizin",
@@ -57,10 +65,10 @@
       "icon": "🏥",
       "status": "beobachtung",
       "trend": "stabil",
-      "global": "Kein aussergewöhnliches globales Gesundheitsereignis mit Bezug zur Schweiz identifiziert.",
-      "schweiz": "Der chronische Fachkräftemangel im Gesundheitswesen bleibt ein strukturelles Thema; die Sommerferienzeit führt saisonal regelmässig zu Personalengpässen in Spitälern und Rettungsdiensten.",
-      "bern": "Keine aktuelle Meldung zu akuten Kapazitätsengpässen in Berner Spitälern; ferienbedingte Personalengpässe sind im Juli grundsätzlich zu erwarten.",
-      "fazit": "Grundversorgung sichergestellt, saisonal reduzierte Personalreserven."
+      "global": "Keine spezifischen Ereignisse identifiziert; Hitze auch in Mitteleuropa mit Werten bis 41 °C in Deutschland.",
+      "schweiz": "Für die Hitzewelle galt in mehreren Regionen Gefahrenstufe 4 (rot); MeteoSchweiz wies auf ein grosses Risiko für Kreislaufbeschwerden und körperliches Unwohlsein hin.",
+      "bern": "In Bern/Zollikofen wurde am 22. Juni mit 34,5 °C ein neuer Rekord aufgestellt, in der Nacht auf den 28. Juni sank die Temperatur nicht unter 21,1 Grad – ein neues Rekord-Tagesminimum. Hinweise auf eine Überlastung von Spitälern oder Rettungsdiensten liegen nicht vor.",
+      "fazit": "Erhöhte gesundheitliche Belastung durch die lange, intensive Hitzeperiode und ausbleibende nächtliche Abkühlung; keine Hinweise auf Kapazitätsengpässe."
     },
     {
       "id": "energie",
@@ -68,21 +76,21 @@
       "icon": "⚡",
       "status": "normal",
       "trend": "stabil",
-      "global": "Energiemärkte bleiben grundsätzlich von geopolitischen Entwicklungen abhängig; keine spezifische aktuelle Krisenmeldung recherchiert.",
-      "schweiz": "Der Sommer ist für die Stromversorgung aufgrund hoher Wasserkraftproduktion traditionell die unkritischste Jahreszeit; die kritische Phase liegt saisonal im Winter.",
-      "bern": "Keine aktuellen Meldungen zu Versorgungsengpässen; die BKW versorgt den Kanton als Hauptanbieterin.",
-      "fazit": "Saisonal günstige Versorgungslage."
+      "global": "Keine grossflächigen, ereignisbedingten Stromausfälle im Berichtszeitraum identifiziert.",
+      "schweiz": "Keine ungeplanten Grossausfälle im Berichtszeitraum gemeldet.",
+      "bern": "Keine ungeplanten Grossausfälle gemeldet; vereinzelte, im Voraus angekündigte kurze Netzunterbrüche im Rahmen regulärer Wartungsarbeiten (u. a. 22./30. Juni).",
+      "fazit": "Energieversorgung blieb während Hitzewelle und Unwetter durchgehend stabil."
     },
     {
       "id": "mobilitaet",
       "name": "Mobilität",
       "icon": "🚆",
-      "status": "beobachtung",
+      "status": "eingeschraenkt",
       "trend": "stabil",
-      "global": "Hohe internationale Reisetätigkeit während der Sommersaison.",
-      "schweiz": "Erfahrungsgemäss hohe Auslastung von Bahn- und Strassennetz durch Tourismus- und Ferienverkehr sowie saisonale Baustellentätigkeit.",
-      "bern": "Das Berner Oberland ist als touristischer Hotspot saisonal stark ausgelastet; die Alpenpässe im Kantonsgebiet sind geöffnet und relevant für Ausweichverkehr.",
-      "fazit": "Erhöhte Auslastung, aber keine strukturelle Beeinträchtigung erkennbar."
+      "global": "Keine spezifischen Ereignisse identifiziert.",
+      "schweiz": "Die Gewitter vom 30.6./1.7. verursachten ein Verkehrschaos mit Erdrutschen; am Flughafen Zürich kam es zu 70 Flugannullationen, Verspätungen und Umleitungen, in Zürich rückte die Feuerwehr rund 700 Mal aus, im Kanton Uri musste die Seestrasse in Seedorf wegen eines Felssturzes gesperrt werden.",
+      "bern": "Trams in der Stadt Bern waren infolge einer Schlammlawine im Wallis zeitweise ausser Betrieb; im Kanton Bern kam es zu umgestürzten Bäumen und teils überschwemmten Gebäuden.",
+      "fazit": "Kurzzeitige, lokal begrenzte Beeinträchtigungen des öffentlichen Verkehrs und der Strasseninfrastruktur ohne mehrtägige Ausfälle."
     },
     {
       "id": "bargeld",
@@ -90,10 +98,10 @@
       "icon": "💳",
       "status": "normal",
       "trend": "stabil",
-      "global": "Fortschreitende Digitalisierung des Zahlungsverkehrs bei grundsätzlichem, aber nicht akutem Cyber-Risiko für Finanzinfrastrukturen.",
-      "schweiz": "Die Schweizerische Nationalbank gewährleistet strukturell die Bargeldversorgung; keine aktuelle Störungsmeldung recherchiert.",
-      "bern": "Keine spezifischen Meldungen zu Bancomat- oder Zahlungsverkehrsausfällen.",
-      "fazit": "Stabile Versorgungslage."
+      "global": "Keine relevanten Ereignisse im Berichtszeitraum identifiziert.",
+      "schweiz": "Keine relevanten Ereignisse im Berichtszeitraum identifiziert.",
+      "bern": "Keine relevanten Ereignisse im Berichtszeitraum identifiziert.",
+      "fazit": "Kein Handlungsbedarf erkennbar."
     },
     {
       "id": "kommunikation",
@@ -101,10 +109,10 @@
       "icon": "📡",
       "status": "eingeschraenkt",
       "trend": "stabil",
-      "global": "Die globale Bedrohungslage im Cyberraum bleibt strukturell erhöht.",
-      "schweiz": "Eine technische Störung verhindert aktuell die Auslösung der rund 5'000 stationären Sirenen aus den Einsatzzentralen der Kantonspolizeien; Alertswiss, verbreitungspflichtige Radiomeldungen und rund 2'200 mobile Sirenen stehen weiterhin uneingeschränkt zur Verfügung.",
-      "bern": "Die Kantonspolizei Bern ist als Teil des nationalen Systems von der Sirenenfernsteuerungsstörung mitbetroffen, die Alarmierungsfähigkeit über redundante Kanäle bleibt jedoch erhalten.",
-      "fazit": "Punktuelle technische Einschränkung im Primärkanal der Sirenenalarmierung, kompensiert durch redundante Warnkanäle; übrige Kommunikationsinfrastruktur ohne erkennbare Beeinträchtigung."
+      "global": "Ähnliche Betrugsmaschen bei Videokonferenz-Tools wurden international auch bei Microsoft Teams und Google Meet beobachtet.",
+      "schweiz": "Das NCSC warnte am 30. Juni vor gefälschten Zoom-Einladungen mit Schadsoftware und am 1. Juli vor Phishing-Mails im Namen der E-Vignette; zudem kam es zu einer Panne bei der Kommunikation mit den Sirenenfernsteuerungsgeräten, wodurch rund 5'000 stationäre Sirenen nicht mehr zentral ausgelöst werden konnten, während Alertswiss, Radio und mobile Sirenen uneingeschränkt verfügbar blieben.",
+      "bern": "Als Teil des nationalen Systems war der Kanton Bern von der Sirenenfernsteuerungs-Panne mitbetroffen; keine kantonsspezifischen Zusatzausfälle bei Mobilfunk oder Internet identifiziert.",
+      "fazit": "Grundfunktionalität der Warn- und Alarmierungsinfrastruktur blieb dank Redundanz gewährleistet; die zentrale Sirenenfernsteuerung war jedoch punktuell eingeschränkt, begleitet von erhöhter Phishing-Aktivität über vertraute Kommunikationskanäle."
     },
     {
       "id": "unterbringung",
@@ -112,10 +120,10 @@
       "icon": "🏠",
       "status": "normal",
       "trend": "stabil",
-      "global": "Keine spezifische aktuelle Entwicklung mit direktem Bezug zum Kanton Bern recherchiert.",
-      "schweiz": "Der Bundesrat verfolgt mit der Sicherheitsdienstpflicht auch das Ziel, den Bevölkerungsschutz und damit indirekt die Schutzinfrastruktur langfristig zu stärken.",
-      "bern": "Die periodische Schutzraumkontrolle bei rund 49'000 kontrollierten Schutzräumen bestätigt ausreichende Schutzplätze für die ständige Wohnbevölkerung; der Kanton unterstützt zudem Gemeinden bei der Umnutzung über den Ersatzbeitragsfonds.",
-      "fazit": "Bezüglich Notfall-Schutzinfrastruktur ist die Kapazität für die ständige Wohnbevölkerung ausreichend; zur regulären Unterbringungssituation liegen keine aktuellen kantonsspezifischen Daten vor."
+      "global": "Keine relevanten Ereignisse im Berichtszeitraum identifiziert.",
+      "schweiz": "Keine relevanten Ereignisse im Berichtszeitraum identifiziert.",
+      "bern": "Keine relevanten Ereignisse im Berichtszeitraum identifiziert, abgesehen von vereinzelten Gebäudeschäden durch Unwetter, die keine grösseren Unterbringungsmassnahmen erforderten.",
+      "fazit": "Kein Handlungsbedarf erkennbar."
     },
     {
       "id": "sicherheit",
@@ -123,10 +131,10 @@
       "icon": "🛡️",
       "status": "beobachtung",
       "trend": "steigend",
-      "global": "Anhaltende geopolitische Spannungen in Europa prägen die sicherheitspolitische Wahrnehmung.",
-      "schweiz": "Der Bundesrat hat am 24. Juni 2026 Eckwerte zur Einführung einer Sicherheitsdienstpflicht beschlossen, um die personellen Bestände von Armee und Zivilschutz langfristig zu sichern; Schutzbauten gelten als zentrales Element des Bevölkerungsschutzes im aktuellen europäischen Sicherheitsumfeld.",
-      "bern": "Der Kanton setzt die Schutzraum- und Notfallplanungsstrategie konsequent um; keine Hinweise auf akute sicherheitsrelevante Vorfälle im Berichtsmonat.",
-      "fazit": "Kein akutes Sicherheitsereignis, jedoch spürbare politische und institutionelle Reaktion auf ein als angespannt wahrgenommenes europäisches Sicherheitsumfeld."
+      "global": "Keine spezifischen, im Berichtszeitraum identifizierten globalen Ereignisse.",
+      "schweiz": "Sichtung mehrerer unbekannter Drohnen über einer Schweizer Militäranlage sorgte für Besorgnis des Armeechefs und Forderungen nach Mitteln zur Drohnenabwehr.",
+      "bern": "Keine kantonsspezifischen Sicherheitsvorfälle im Berichtszeitraum identifiziert.",
+      "fazit": "Der ungeklärte Drohnenvorfall erhöht die sicherheitspolitische Aufmerksamkeit auf nationaler Ebene, ohne dass bislang konkrete Auswirkungen auf den Kanton Bern erkennbar sind."
     }
   ]
 }
