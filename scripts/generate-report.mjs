@@ -78,6 +78,14 @@ function standDatum() {
   return `${d.getUTCDate()}. ${MONATE[d.getUTCMonth()]} ${d.getUTCFullYear()}`;
 }
 
+/** Rollierendes Vier-Wochen-Fenster bis heute, als Text für den Recherche-Prompt. */
+function vierWochenFenster() {
+  const bis = new Date();
+  const von = new Date(bis.getTime() - 28 * 24 * 60 * 60 * 1000);
+  const fmt = (d) => `${d.getUTCDate()}. ${MONATE[d.getUTCMonth()]} ${d.getUTCFullYear()}`;
+  return `${fmt(von)} bis ${fmt(bis)}`;
+}
+
 function textBlocks(message) {
   return message.content.filter((b) => b.type === "text").map((b) => b.text).join("");
 }
@@ -88,27 +96,52 @@ function textBlocks(message) {
 
 async function recherche(monatLabel) {
   const sektorenListe = SEKTOREN.map((s) => `- ${s.name}`).join("\n");
+  const fenster = vierWochenFenster();
 
   const system =
     "Du bist Lageanalyst:in im Bevölkerungsschutz des Kantons Bern (Schweiz). " +
-    "Du erstellst eine sachliche, nüchterne und faktenbasierte Lagebeurteilung. " +
-    "Du recherchierst mit der Websuche aktuelle, belastbare Informationen und unterscheidest " +
-    "klar zwischen gesicherten Fakten und Einschätzungen. Keine Panikmache, keine Spekulation.";
+    "Du erstellst eine sachliche, nüchterne und faktenbasierte Lagebeurteilung, " +
+    "gestützt auf OSINT-Quellen: Nachrichtenmedien, offizielle Kanäle von Behörden " +
+    "und Betreibern sowie Social Media. Du fokussierst konsequent auf konkrete " +
+    "Ereignisse, Vorfälle und Berichterstattung der letzten vier Wochen – nicht auf " +
+    "strukturelle Dauerthemen. Beschlossene oder angekündigte Massnahmen, Programme " +
+    "oder Investitionen, deren Wirkung erst in mehreren Monaten oder Jahren eintritt, " +
+    "lässt du unabhängig von ihrer Aktualität in der Berichterstattung weg – auch " +
+    "wenn kürzlich darüber berichtet wurde. Du unterscheidest klar zwischen " +
+    "gesicherten Fakten und Einschätzungen. Keine Panikmache, keine Spekulation.";
 
   const user =
     `Erstelle eine recherchierte Lagebeurteilung für den Berichtsmonat ${monatLabel} ` +
     `zur Bevölkerungsschutz-Lage im Kanton Bern.\n\n` +
-    `Recherchiere mit der Websuche aktuelle Entwicklungen und beurteile:\n` +
-    `1. Die aktuelle Lage.\n` +
-    `2. Die Entwicklung der letzten Wochen.\n` +
-    `3. Die Entwicklungstendenzen für den nächsten Monat.\n` +
-    `4. Für jeden der folgenden Versorgungssektoren die Auswirkungen aktueller Entwicklungen ` +
-    `jeweils WELTWEIT, in der SCHWEIZ und im KANTON BERN auf die Leistungsfähigkeit, ` +
-    `sowie ein kurzes Fazit und eine Einstufung (voll leistungsfähig / unter Beobachtung / ` +
-    `eingeschränkt / kritisch) und eine Risikotendenz (steigend / stabil / sinkend):\n` +
+    `ZEITFENSTER: Berücksichtige ausschliesslich Ereignisse und Berichterstattung aus ` +
+    `den letzten vier Wochen (${fenster}). Suche gezielt nach aktuellen Nachrichten, ` +
+    `Medienberichten, Meldungen von Behörden/Betreibern und Social-Media-Beiträgen aus ` +
+    `diesem Zeitraum.\n\n` +
+    `WAS NICHT EINFLIESSEN SOLL:\n` +
+    `- Rein strukturelle oder langfristige Themen (z. B. Versorgungsindizes, ` +
+    `mehrjährige Investitions- oder Ausbauprogramme, internationale Abkommen), sofern ` +
+    `sie nicht durch ein konkretes Ereignis der letzten vier Wochen ausgelöst wurden.\n` +
+    `- Beschlüsse, Ankündigungen oder Massnahmen, deren Wirkung erst in einigen Monaten ` +
+    `oder Jahren eintritt (z. B. Bauprojekte, Gesetzesänderungen mit späterem ` +
+    `Inkrafttreten, Reservekraftwerk- oder Netzausbauprojekte) – auch wenn die Meldung ` +
+    `dazu aktuell ist.\n` +
+    `- Umfrage- oder Stimmungsergebnisse ohne unmittelbaren Bezug zu einem Ereignis der ` +
+    `letzten vier Wochen.\n\n` +
+    `Recherchiere mit der Websuche und beurteile:\n` +
+    `1. Die aktuelle Lage – gestützt auf Ereignisse der letzten vier Wochen.\n` +
+    `2. Die Entwicklung der letzten Wochen – als zeitlicher Verlauf konkreter Ereignisse.\n` +
+    `3. Die Entwicklungstendenzen für den nächsten Monat – als direkte Fortschreibung ` +
+    `der beobachteten aktuellen Entwicklung, nicht als struktureller Ausblick.\n` +
+    `4. Für jeden der folgenden Versorgungssektoren die Auswirkungen der aktuellen, ` +
+    `in den letzten vier Wochen beobachteten Entwicklungen jeweils WELTWEIT, in der ` +
+    `SCHWEIZ und im KANTON BERN auf die Leistungsfähigkeit, sowie ein kurzes Fazit und ` +
+    `eine Einstufung (voll leistungsfähig / unter Beobachtung / eingeschränkt / ` +
+    `kritisch) und eine Risikotendenz (steigend / stabil / sinkend). Wenn es für einen ` +
+    `Sektor keine relevante aktuelle Entwicklung gibt, halte das kurz fest, statt auf ` +
+    `strukturelle Themen auszuweichen:\n` +
     `${sektorenListe}\n\n` +
     `Gib eine strukturierte, ausführliche Lagebeurteilung in Deutsch aus. ` +
-    `Nenne Quellen, wo möglich.`;
+    `Nenne Quellen und deren Datum, wo möglich.`;
 
   const messages = [{ role: "user", content: user }];
 
@@ -184,7 +217,10 @@ async function strukturieren(monatLabel, rechercheText) {
     "Du wandelst eine Lagebeurteilung in striktes JSON gemäss dem vorgegebenen Schema um. " +
     "Schreibe in sachlichem Deutsch. Pro Sektor je 1–2 prägnante Sätze für 'global', 'schweiz', " +
     "'bern' und 'fazit'. 'aktuelleLage', 'entwicklungWochen' und 'tendenzen' jeweils als Liste " +
-    "kurzer Absätze. Liefere alle neun Sektoren.";
+    "kurzer Absätze. Liefere alle neun Sektoren. Übernimm nur Inhalte, die sich auf konkrete " +
+    "Ereignisse der letzten vier Wochen stützen; strukturelle Dauerthemen oder Massnahmen mit " +
+    "erst langfristiger Wirkung, die in der Vorlage dennoch vorkommen, lässt du weg, statt sie " +
+    "zu übernehmen.";
 
   const user =
     `Berichtsmonat: ${monatLabel}\n\n` +
