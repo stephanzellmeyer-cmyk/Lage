@@ -1,0 +1,131 @@
+{
+  "id": "2026-08",
+  "monat": "August 2026",
+  "stand": "1. August 2026",
+  "entwurf": true,
+  "gesamtlage": {
+    "stufe": "normal",
+    "titel": "Stabile Lage mit saisontypischer Wetterunruhe",
+    "text": "Die Lage im Kanton Bern ist per Ende Juli/Anfang August 2026 grundsätzlich stabil. Geprägt wird der Berichtszeitraum durch eine wechselhafte Sommerwitterung mit mehreren Hitzeperioden und dazwischenliegenden, teils heftigen Gewitterlagen. Ein sicherheitsrelevantes Grossereignis, ein Ausfall kritischer Infrastrukturen oder eine ausserordentliche Belastung der Rettungs- und Versorgungssysteme ist für den Berichtszeitraum nicht dokumentiert."
+  },
+  "aktuelleLage": [
+    "Der Kanton Bern befindet sich Ende Juli erneut in einer Hitzephase mit Temperaturen zwischen 30 und über 36 Grad, begleitet von lokal begrenzter, erhöhter Gewitterneigung, vor allem im Jura und im Berner Oberland.",
+    "In der Nacht auf den 1. Juli 2026 zogen kräftige Gewitter mit über 20'000 Blitzen über die Region Bern und die ganze Schweiz. Die Kantonspolizei meldete gefallene Bäume und teils überschwemmte Gebäude; diese Unwetterfront beendete eine vorangegangene, länger andauernde Hitzeperiode.",
+    "Die Lage ist primär naturgefahrenbezogen (Hitze/Gewitter) und nicht durch strukturelle Versorgungsengpässe geprägt. Für keinen der neun Versorgungssektoren liegen Hinweise auf kritische oder eingeschränkte Zustände vor."
+  ],
+  "entwicklungWochen": [
+    "Um den 30. Juni/1. Juli 2026 wurde für den Kanton Bern eine Gewitterwarnung mit mässiger Gefahrenstufe herausgegeben. In der Nacht zuvor zogen bereits kräftige Gewitter durch, die zu Sachschäden führten.",
+    "Am 1. Juli 2026 erreichte die Unwetterlage ihren Höhepunkt: Das Museum für Kommunikation in Bern meldete Wasserschäden in mehreren Ausstellungsräumen, kantonsweit wurden gefallene Bäume und überschwemmte Gebäude gemeldet.",
+    "Um den 14. Juli 2026 galt für den Raum Bern eine Unwetterwarnung wegen Hitzewelle; eine westliche Höhenströmung brachte instabile, feuchte Luft mit täglichen Schauern und Gewittern.",
+    "Am 16. Juli 2026 kam es zu erneuter Gewitteraktivität im Kanton Bern bei gleichzeitig anhaltend hohen Temperaturen über 30 Grad.",
+    "Ab Ende Juli (ca. 27.–30. Juli 2026) stieg die Hitze erneut deutlich an, mit Höchstwerten von rund 32 °C bis 36–38 °C und zeitweiser orangefarbener Gewitterwarnung, lokale Gewitterneigung vor allem in Jura und Berner Oberland.",
+    "Das einzige konkret dokumentierte Schadenereignis mit Bezug zu öffentlicher Infrastruktur bleibt die Unwetternacht vom 30. Juni/1. Juli 2026; weitere Wetterereignisse im Juli blieben ohne gemeldete namhafte Sach- oder Personenschäden."
+  ],
+  "tendenzen": [
+    "Für August 2026 ist eine Fortsetzung der wechselhaften Hochsommerlage zu erwarten: weitere Hitzephasen über 30 °C, unterbrochen von energiereichen Gewitterlagen mit lokalem Starkregen-, Hagel- und Sturmböenpotenzial, insbesondere Alpennordseite, Jura und Berner Oberland.",
+    "Erhöhte, saisontypische Wahrscheinlichkeit für kurzfristige, lokal begrenzte Unwetterereignisse wie Blitzschlag, Sturzfluten oder umstürzende Bäume, analog dem Ereignis vom 1. Juli.",
+    "Wiederkehrende Hitzeperioden bringen bekannte Belastungen für vulnerable Gruppen mit sich; aus den verfügbaren Quellen liegen jedoch keine Berichte über akute Kapazitätsengpässe im Gesundheitswesen vor.",
+    "Es gibt keine Hinweise aus der aktuellen Berichterstattung auf eine sich abzeichnende Verschärfung der Lage über das saisonale Wettergeschehen hinaus."
+  ],
+  "sektoren": [
+    {
+      "id": "wasser",
+      "name": "Wasserversorgung",
+      "icon": "💧",
+      "status": "normal",
+      "trend": "stabil",
+      "global": "Keine relevanten Ereignisse mit Bezug zur Trinkwasserversorgung im Berichtszeitraum bekannt.",
+      "schweiz": "Keine Meldungen zu Trinkwasser-Kontaminationen oder Versorgungsunterbrüchen im Berichtszeitraum.",
+      "bern": "Die beim Unwetter vom 1. Juli gemeldeten überschwemmten Gebäude betreffen Oberflächenwasser durch Starkregen, nicht die Trinkwasserversorgung.",
+      "fazit": "Keine relevante aktuelle Entwicklung identifiziert; Sektor voll leistungsfähig."
+    },
+    {
+      "id": "lebensmittel",
+      "name": "Lebensmittelversorgung",
+      "icon": "🥖",
+      "status": "normal",
+      "trend": "stabil",
+      "global": "Keine Berichte über Ernteausfälle oder Lieferkettenunterbrüche mit Bezug zum Berichtszeitraum.",
+      "schweiz": "Keine Meldungen zu Rückrufen oder Versorgungsstörungen im Berichtszeitraum.",
+      "bern": "Keine Vorfälle im Kanton Bern dokumentiert.",
+      "fazit": "Keine relevante aktuelle Entwicklung identifiziert; Sektor voll leistungsfähig."
+    },
+    {
+      "id": "medizin",
+      "name": "Medizinische Versorgung",
+      "icon": "🏥",
+      "status": "normal",
+      "trend": "stabil",
+      "global": "Keine dokumentierten Grossereignisse mit Bezug zur medizinischen Versorgung im Berichtszeitraum.",
+      "schweiz": "Keine Meldungen zu Kapazitätsengpässen oder Grossanfällen im Berichtszeitraum.",
+      "bern": "Eine mögliche Zusatzbelastung durch die Hitzeperioden ist plausibel, aber nicht durch Berichterstattung im Ereignisfenster belegt.",
+      "fazit": "Keine belastbare Meldung zu Beeinträchtigungen; Sektor unauffällig."
+    },
+    {
+      "id": "energie",
+      "name": "Energieversorgung",
+      "icon": "⚡",
+      "status": "normal",
+      "trend": "stabil",
+      "global": "Keine Meldungen zu Netzstörungen oder Engpässen im Berichtszeitraum gefunden.",
+      "schweiz": "Keine Hinweise auf Stromausfälle oder Versorgungsprobleme im Berichtszeitraum.",
+      "bern": "Auch im Zusammenhang mit dem Unwetter vom 1. Juli wurden keine Energieausfälle gemeldet.",
+      "fazit": "Keine relevante aktuelle Entwicklung identifiziert; Sektor voll leistungsfähig."
+    },
+    {
+      "id": "mobilitaet",
+      "name": "Mobilität",
+      "icon": "🚆",
+      "status": "beobachtung",
+      "trend": "steigend",
+      "global": "Keine globalen Ereignisse mit Bezug zur Mobilität im Berichtszeitraum identifiziert.",
+      "schweiz": "Schweizweite Unwetterlage am 1. Juli führte zu Sturmschäden mit erfahrungsgemäss kurzzeitigen lokalen Verkehrsbehinderungen.",
+      "bern": "Gefallene Bäume und überschwemmte Gebäude im Kantonsgebiet infolge des Unwetters vom 1. Juli; danach keine weiteren Vorfälle bekannt, Lage inzwischen normalisiert.",
+      "fazit": "Kurzzeitige, lokal begrenzte Beeinträchtigung durch Unwetterfolgen; saisonale Gewitterlage im August könnte erneut punktuelle Störungen verursachen."
+    },
+    {
+      "id": "bargeld",
+      "name": "Bargeldversorgung und Zahlungsverkehr",
+      "icon": "💳",
+      "status": "normal",
+      "trend": "stabil",
+      "global": "Keine Meldungen zu Störungen im Zahlungsverkehr im Berichtszeitraum.",
+      "schweiz": "Keine Vorfälle bei Bankomaten oder Zahlungssystemen dokumentiert.",
+      "bern": "Keine kantonsspezifischen Ereignisse festgestellt.",
+      "fazit": "Keine relevante aktuelle Entwicklung identifiziert; Sektor voll leistungsfähig."
+    },
+    {
+      "id": "kommunikation",
+      "name": "Kommunikation",
+      "icon": "📡",
+      "status": "normal",
+      "trend": "stabil",
+      "global": "Keine Meldungen zu Netzausfällen bei Telekom-Betreibern im Berichtszeitraum.",
+      "schweiz": "Keine Störungen bei Mobilfunk-, Internet- oder Rundfunknetzen dokumentiert.",
+      "bern": "Das Museum für Kommunikation in Bern meldete Wasserschäden durch das Unwetter vom 1. Juli, betrifft aber eine kulturelle Institution, nicht die Telekommunikationsinfrastruktur.",
+      "fazit": "Keine Beeinträchtigung der Kommunikationsinfrastruktur; Sektor voll leistungsfähig."
+    },
+    {
+      "id": "unterbringung",
+      "name": "Unterbringung",
+      "icon": "🏠",
+      "status": "normal",
+      "trend": "stabil",
+      "global": "Keine Meldungen zu Unterbringungsengpässen im Berichtszeitraum.",
+      "schweiz": "Keine Hinweise auf Notunterbringungsbedarf im Berichtszeitraum.",
+      "bern": "Die Gebäudeschäden vom 1. Juli führten nicht zu gemeldeter Obdachlosigkeit oder Notunterbringung.",
+      "fazit": "Keine relevante aktuelle Entwicklung identifiziert; Sektor voll leistungsfähig."
+    },
+    {
+      "id": "sicherheit",
+      "name": "Sicherheit",
+      "icon": "🛡️",
+      "status": "normal",
+      "trend": "stabil",
+      "global": "Keine aussergewöhnlichen Sicherheitsereignisse mit Bezug zum Berichtszeitraum gefunden.",
+      "schweiz": "Keine Hinweise auf Kriminalität, Grossveranstaltungslagen oder Bedrohungen im Berichtszeitraum.",
+      "bern": "Die Kantonspolizei Bern war am 1. Juli im Rahmen eines regulären, wetterbedingten Einsatzes zur Erfassung von Sturmschäden im Einsatz.",
+      "fazit": "Kein aussergewöhnliches Sicherheitsereignis; einzig wetterbedingter Regeleinsatz dokumentiert."
+    }
+  ]
+}
