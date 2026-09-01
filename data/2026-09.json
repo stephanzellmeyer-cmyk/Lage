@@ -1,0 +1,131 @@
+{
+  "id": "2026-09",
+  "monat": "September 2026",
+  "stand": "1. September 2026",
+  "entwurf": true,
+  "gesamtlage": {
+    "stufe": "normal",
+    "titel": "Ruhige und stabile Gesamtlage im Kanton Bern",
+    "text": "Die Auswertung offener Quellen für den Zeitraum 4. August bis 1. September 2026 ergibt keine Hinweise auf sicherheitsrelevante Vorfälle, Versorgungsstörungen oder Schadenereignisse im Kanton Bern. Einzig die sommerliche Witterung mit wechselnden Warm- und Feuchtluftzufuhren prägte den Berichtszeitraum, ohne dass es zu Unwetterwarnungen höherer Stufe oder dokumentierten Schäden kam. Alle neun überwachten Versorgungssektoren gelten als voll leistungsfähig mit stabiler Risikotendenz."
+  },
+  "aktuelleLage": [
+    "Die bevölkerungsschutzrelevante Lage im Kanton Bern präsentiert sich im Berichtszeitraum als ruhig und unauffällig, ohne Hinweise auf ausserordentliche Ereignisse, Grossschadenlagen oder Versorgungsunterbrüche.",
+    "Dominierendes Thema war die Witterung: Anfang August herrschte eine heisse, föhnige Südströmung, ehe ab Mitte der Woche labilere, weniger heisse Luftmassen einzogen.",
+    "Für die letzte Augustwoche wurden keine Unwetterwarnungen für den Raum Bern ausgegeben; es galten lediglich Vorwarnungen betreffend Hitze und Sonnenexposition.",
+    "Ende August wurde auf eine erneute Zufuhr feucht-warmer Mittelmeerluft mit leicht erhöhter Schauer- und Gewitteranfälligkeit hingewiesen, ohne dass es zu Unwetterwarnungen kam.",
+    "Es liegen keine Anhaltspunkte für Beeinträchtigungen kritischer Infrastrukturen (Wasser, Energie, Kommunikation, Gesundheitswesen, Verkehr, Bargeldversorgung) im Kanton Bern im Berichtszeitraum vor."
+  ],
+  "entwicklungWochen": [
+    "4. August 2026: Hitzige, föhnige Wetterlage mit südlicher bis südwestlicher Höhenströmung; ab Wochenmitte Übergang zu labileren, weniger heissen Luftmassen.",
+    "Mitte August 2026: Keine gemeldeten Schadenereignisse oder Grosseinsätze im Kanton Bern feststellbar.",
+    "24. August 2026: Wechselhafte, teils regnerische Bedingungen um 25 °C; Ankündigung erneuter feucht-warmer Luftzufuhr aus dem Mittelmeerraum mit erhöhter Schauer- und Gewitterneigung für die Folgewoche.",
+    "28.–30. August 2026: Keine Unwetterwarnungen für den Raum Bern; lediglich aktive Vorwarnungen zur Sonnenexposition (UV-Belastung).",
+    "Ende August/1. September 2026: Stabile, spätsommerliche Witterung ohne aussergewöhnliche Ereignisse; keine Meldungen zu Versorgungsstörungen oder Sicherheitsvorfällen aus dem Kanton Bern."
+  ],
+  "tendenzen": [
+    "Fortsetzung der spätsommerlichen, wechselhaften Witterung mit gelegentlicher Gewitterneigung durch weiterhin einfliessende feucht-warme Mittelmeerluft; eine saisonal typische Zunahme lokaler, kurzzeitiger Gewitter mit Starkregen-Potenzial ist möglich, ohne erkennbar erhöhte Grossschadenwahrscheinlichkeit für den Kanton Bern.",
+    "Bei unveränderter Ausgangslage ist eine Fortsetzung der stabilen Versorgungssituation in allen kritischen Infrastrukturen des Kantons Bern wahrscheinlich.",
+    "Keine erkennbaren Trends, die auf eine Verschärfung der Sicherheitslage hindeuten würden."
+  ],
+  "sektoren": [
+    {
+      "id": "wasser",
+      "name": "Wasserversorgung",
+      "icon": "💧",
+      "status": "normal",
+      "trend": "stabil",
+      "global": "Keine relevante aktuelle Entwicklung identifiziert.",
+      "schweiz": "Keine relevante aktuelle Entwicklung identifiziert.",
+      "bern": "Keine Hinweise auf Engpässe, Kontaminationen oder Ausfälle im Berichtszeitraum.",
+      "fazit": "Stabile Lage ohne beobachtete Vorfälle."
+    },
+    {
+      "id": "lebensmittel",
+      "name": "Lebensmittelversorgung",
+      "icon": "🥖",
+      "status": "normal",
+      "trend": "stabil",
+      "global": "Keine relevante aktuelle Entwicklung identifiziert.",
+      "schweiz": "Keine relevante aktuelle Entwicklung identifiziert.",
+      "bern": "Keine relevante aktuelle Entwicklung identifiziert.",
+      "fazit": "Keine Auffälligkeiten in der Berichtsperiode feststellbar."
+    },
+    {
+      "id": "medizin",
+      "name": "Medizinische Versorgung",
+      "icon": "🏥",
+      "status": "normal",
+      "trend": "stabil",
+      "global": "Keine relevante aktuelle Entwicklung identifiziert.",
+      "schweiz": "Keine relevante aktuelle Entwicklung identifiziert.",
+      "bern": "Keine Meldungen zu Spitalüberlastung, Ausbrüchen oder Personalengpässen im Berichtszeitraum.",
+      "fazit": "Unauffällige Lage."
+    },
+    {
+      "id": "energie",
+      "name": "Energieversorgung",
+      "icon": "⚡",
+      "status": "normal",
+      "trend": "stabil",
+      "global": "Keine relevante aktuelle Entwicklung identifiziert.",
+      "schweiz": "Keine Hinweise auf Netzstörungen oder Kapazitätsengpässe im Berichtszeitraum.",
+      "bern": "Keine Hinweise auf Stromausfälle oder Versorgungsunterbrüche; die heisse Südströmung Anfang August führte zu keinen gemeldeten Netzproblemen.",
+      "fazit": "Stabile Energieversorgung ohne beobachtete Störereignisse."
+    },
+    {
+      "id": "mobilitaet",
+      "name": "Mobilität",
+      "icon": "🚆",
+      "status": "normal",
+      "trend": "stabil",
+      "global": "Keine relevante aktuelle Entwicklung identifiziert.",
+      "schweiz": "Keine relevante aktuelle Entwicklung identifiziert.",
+      "bern": "Keine Hinweise auf grössere Verkehrsstörungen, Bahnunterbrüche oder Strassensperrungen infolge von Wetterereignissen im Berichtszeitraum.",
+      "fazit": "Keine Beeinträchtigung der Mobilität feststellbar."
+    },
+    {
+      "id": "bargeld",
+      "name": "Bargeldversorgung und Zahlungsverkehr",
+      "icon": "💳",
+      "status": "normal",
+      "trend": "stabil",
+      "global": "Keine relevante aktuelle Entwicklung identifiziert.",
+      "schweiz": "Keine relevante aktuelle Entwicklung identifiziert.",
+      "bern": "Keine relevante aktuelle Entwicklung identifiziert.",
+      "fazit": "Keine Auffälligkeiten."
+    },
+    {
+      "id": "kommunikation",
+      "name": "Kommunikation",
+      "icon": "📡",
+      "status": "normal",
+      "trend": "stabil",
+      "global": "Keine relevante aktuelle Entwicklung identifiziert.",
+      "schweiz": "Keine relevante aktuelle Entwicklung identifiziert.",
+      "bern": "Keine Hinweise auf Ausfälle von Mobilfunk-, Internet- oder Rundfunknetzen im Berichtszeitraum.",
+      "fazit": "Stabile Kommunikationsinfrastruktur ohne beobachtete Störungen."
+    },
+    {
+      "id": "unterbringung",
+      "name": "Unterbringung",
+      "icon": "🏠",
+      "status": "normal",
+      "trend": "stabil",
+      "global": "Keine relevante aktuelle Entwicklung identifiziert.",
+      "schweiz": "Keine relevante aktuelle Entwicklung identifiziert.",
+      "bern": "Keine Hinweise auf akute Notlagen, etwa durch Naturereignisse ausgelöste Evakuierungen, im Berichtszeitraum.",
+      "fazit": "Keine ausserordentliche Belastung der Unterbringungskapazitäten feststellbar."
+    },
+    {
+      "id": "sicherheit",
+      "name": "Sicherheit",
+      "icon": "🛡️",
+      "status": "normal",
+      "trend": "stabil",
+      "global": "Keine relevante aktuelle Entwicklung identifiziert.",
+      "schweiz": "Keine relevante aktuelle Entwicklung identifiziert.",
+      "bern": "Keine Hinweise auf sicherheitsrelevante Grossereignisse, Gewaltvorfälle mit Bevölkerungsschutzrelevanz oder Grosseinsätze der Sicherheitskräfte im Berichtszeitraum.",
+      "fazit": "Unauffällige Sicherheitslage."
+    }
+  ]
+}
