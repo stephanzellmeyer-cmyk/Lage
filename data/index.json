@@ -2,6 +2,10 @@
   "titel": "Bevölkerungsschutz-Lage Kanton Bern",
   "berichte": [
     {
+      "id": "2026-10",
+      "label": "Oktober 2026"
+    },
+    {
       "id": "2026-09",
       "label": "September 2026"
     },
