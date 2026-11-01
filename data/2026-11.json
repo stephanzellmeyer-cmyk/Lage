@@ -1,0 +1,124 @@
+{
+  "id": "2026-11",
+  "monat": "November 2026",
+  "stand": "1. November 2026",
+  "entwurf": true,
+  "gesamtlage": {
+    "stufe": "normal",
+    "titel": "Keine aussergewöhnlichen Vorkommnisse identifiziert",
+    "text": "Für den Berichtszeitraum (4. Oktober bis 1. November 2026) liegen keine verifizierten Hinweise auf ausserordentliche Ereignisse oder Versorgungsstörungen im Kanton Bern oder in der Schweiz vor. Die Gesamtlage wird daher als normal eingestuft, wobei diese Einschätzung mit dem Vorbehalt eingeschränkter aktueller Quellenlage für diesen Zeitraum zu lesen ist."
+  },
+  "aktuelleLage": [
+    "Es konnten für den definierten Zeitraum keine spezifischen, verifizierten Vorfälle in den neun Versorgungssektoren festgestellt werden, die eine Abweichung von einer normalen Lage begründen würden.",
+    "Die Datenlage für eine detaillierte Einzelfallbewertung ist für diesen Berichtsmonat eingeschränkt, weshalb die Beurteilung auf einer vorsichtigen, konservativen Grundeinschätzung beruht."
+  ],
+  "entwicklungWochen": [
+    "Im Beobachtungszeitraum wurden keine signifikanten Veränderungen oder Eskalationen gegenüber der Vormonatslage festgestellt.",
+    "Es liegen keine Hinweise auf neu aufgetretene Engpässe oder Störungen in den Bereichen Wasser, Lebensmittel, Medizin, Energie, Mobilität, Bargeld, Kommunikation, Unterbringung oder Sicherheit vor."
+  ],
+  "tendenzen": [
+    "Ohne neue verifizierte Ereignisse wird von einer stabilen Fortsetzung der aktuellen Lage ausgegangen.",
+    "Eine Neubewertung wird empfohlen, sobald aktuelle, geprüfte Informationen zu konkreten Ereignissen im Kanton Bern und der Schweiz vorliegen."
+  ],
+  "sektoren": [
+    {
+      "id": "wasser",
+      "name": "Wasserversorgung",
+      "icon": "💧",
+      "status": "normal",
+      "trend": "stabil",
+      "global": "Keine verifizierten Berichte über grössere Störungen der Wasserversorgung im Berichtszeitraum.",
+      "schweiz": "Keine gemeldeten Vorfälle bei der Trinkwasserversorgung auf nationaler Ebene.",
+      "bern": "Keine Hinweise auf Versorgungsstörungen im Kanton Bern.",
+      "fazit": "Normale Versorgungslage ohne erkennbare Beeinträchtigung."
+    },
+    {
+      "id": "lebensmittel",
+      "name": "Lebensmittelversorgung",
+      "icon": "🥖",
+      "status": "normal",
+      "trend": "stabil",
+      "global": "Keine bestätigten Meldungen zu relevanten Lieferkettenunterbrechungen im Zeitraum.",
+      "schweiz": "Keine Hinweise auf Versorgungsengpässe bei Grundnahrungsmitteln.",
+      "bern": "Keine lokalen Berichte über Engpässe oder Preisschocks.",
+      "fazit": "Stabile Versorgungslage ohne Auffälligkeiten."
+    },
+    {
+      "id": "medizin",
+      "name": "Medizinische Versorgung",
+      "icon": "🏥",
+      "status": "normal",
+      "trend": "stabil",
+      "global": "Keine verifizierten Hinweise auf akute Engpässe bei Medikamenten oder medizinischer Versorgung.",
+      "schweiz": "Keine gemeldeten kritischen Lieferengpässe im Gesundheitswesen.",
+      "bern": "Keine Berichte über Kapazitätsprobleme in Spitälern oder Apotheken.",
+      "fazit": "Normale medizinische Versorgungslage."
+    },
+    {
+      "id": "energie",
+      "name": "Energieversorgung",
+      "icon": "⚡",
+      "status": "normal",
+      "trend": "stabil",
+      "global": "Keine bestätigten grösseren Störungen der Energieversorgung im Beobachtungszeitraum.",
+      "schweiz": "Keine Meldungen zu Stromausfällen oder Engpässen auf nationaler Ebene.",
+      "bern": "Keine lokalen Vorfälle bei der Energieversorgung bekannt.",
+      "fazit": "Stabile Energieversorgung ohne erkennbare Risiken."
+    },
+    {
+      "id": "mobilitaet",
+      "name": "Mobilität",
+      "icon": "🚆",
+      "status": "normal",
+      "trend": "stabil",
+      "global": "Keine verifizierten Berichte über grössere Verkehrsunterbrechungen im Zeitraum.",
+      "schweiz": "Keine gemeldeten landesweiten Störungen im öffentlichen Verkehr oder Strassennetz.",
+      "bern": "Keine Hinweise auf relevante Mobilitätseinschränkungen im Kanton.",
+      "fazit": "Normale Mobilitätslage."
+    },
+    {
+      "id": "bargeld",
+      "name": "Bargeldversorgung und Zahlungsverkehr",
+      "icon": "💳",
+      "status": "normal",
+      "trend": "stabil",
+      "global": "Keine bestätigten Störungen im Zahlungsverkehr oder bei der Bargeldversorgung.",
+      "schweiz": "Keine Meldungen zu Ausfällen bei Banken oder Geldautomaten.",
+      "bern": "Keine lokalen Vorfälle im Zusammenhang mit Bargeldversorgung bekannt.",
+      "fazit": "Stabile Lage im Finanzsektor."
+    },
+    {
+      "id": "kommunikation",
+      "name": "Kommunikation",
+      "icon": "📡",
+      "status": "normal",
+      "trend": "stabil",
+      "global": "Keine verifizierten grösseren Ausfälle von Kommunikationsnetzen im Zeitraum.",
+      "schweiz": "Keine gemeldeten landesweiten Störungen bei Mobilfunk oder Internet.",
+      "bern": "Keine lokalen Berichte über Netzausfälle.",
+      "fazit": "Normale Kommunikationsinfrastruktur ohne Beeinträchtigung."
+    },
+    {
+      "id": "unterbringung",
+      "name": "Unterbringung",
+      "icon": "🏠",
+      "status": "normal",
+      "trend": "stabil",
+      "global": "Keine bestätigten Ereignisse mit Auswirkungen auf Unterbringungskapazitäten.",
+      "schweiz": "Keine gemeldeten akuten Engpässe bei Notunterkünften.",
+      "bern": "Keine lokalen Hinweise auf Kapazitätsprobleme.",
+      "fazit": "Stabile Lage bei Unterbringungsmöglichkeiten."
+    },
+    {
+      "id": "sicherheit",
+      "name": "Sicherheit",
+      "icon": "🛡️",
+      "status": "normal",
+      "trend": "stabil",
+      "global": "Keine verifizierten sicherheitsrelevanten Grossereignisse im Berichtszeitraum identifiziert.",
+      "schweiz": "Keine gemeldeten ausserordentlichen sicherheitsrelevanten Vorfälle auf nationaler Ebene.",
+      "bern": "Keine lokalen Sicherheitsvorfälle mit Relevanz für den Bevölkerungsschutz bekannt.",
+      "fazit": "Normale Sicherheitslage ohne erkennbare Eskalation."
+    }
+  ]
+}
