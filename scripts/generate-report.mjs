@@ -95,7 +95,10 @@ function zweiWochenFenster() {
 }
 
 // Internationale Leitmedien, die zusätzlich zu Schweizer Quellen zwingend
-// ausgewertet werden – mit Domain für gezielte site:-Suchen.
+// ausgewertet werden. Jede Zeitung erhält eine eigene, über `allowed_domains`
+// hart auf ihre Domain beschränkte Websuche (siehe rechercheLeitmedium) –
+// so kann keine Zeitung "vergessen" oder das Suchbudget einseitig auf eine
+// einzelne Quelle verteilt werden.
 const LEITMEDIEN = [
   { name: "NZZ (Neue Zürcher Zeitung)", domain: "nzz.ch" },
   { name: "FAZ (Frankfurter Allgemeine Zeitung)", domain: "faz.net" },
@@ -112,86 +115,69 @@ function textBlocks(message) {
 // Phase 1 – Recherche mit Websuche
 // ---------------------------------------------------------------------------
 
-async function recherche(monatLabel) {
+/** Allgemeine, Schweiz-fokussierte OSINT-Recherche (Medien, Behörden, Social Media). */
+async function rechercheAllgemein(monatLabel) {
   const sektorenListe = SEKTOREN.map((s) => `- ${s.name}`).join("\n");
   const fenster = vierWochenFenster();
-  const medienFenster = zweiWochenFenster();
-  const leitmedienListe = LEITMEDIEN.map((m) => `- ${m.name} (site:${m.domain})`).join("\n");
 
   const system =
     "Du bist Lageanalyst:in im Bevölkerungsschutz des Kantons Bern (Schweiz). " +
     "Du erstellst eine sachliche, nüchterne und faktenbasierte Lagebeurteilung, " +
     "gestützt auf OSINT-Quellen: Nachrichtenmedien, offizielle Kanäle von Behörden " +
-    "und Betreibern sowie Social Media. Zusätzlich zu Schweizer Quellen wertest du " +
-    "zwingend eine feste Liste internationaler Leitmedien aus (NZZ, FAZ, Le Figaro, " +
-    "The Guardian, The New York Times), um die weltweite und europäische Perspektive " +
-    "fundiert abzubilden. Du fokussierst konsequent auf konkrete Ereignisse, Vorfälle " +
-    "und Berichterstattung der letzten Wochen – nicht auf strukturelle Dauerthemen. " +
-    "Beschlossene oder angekündigte Massnahmen, Programme oder Investitionen, deren " +
-    "Wirkung erst in mehreren Monaten oder Jahren eintritt, lässt du unabhängig von " +
-    "ihrer Aktualität in der Berichterstattung weg – auch wenn kürzlich darüber " +
-    "berichtet wurde. Du unterscheidest klar zwischen gesicherten Fakten und " +
-    "Einschätzungen. Keine Panikmache, keine Spekulation.";
+    "und Betreibern sowie Social Media. Du fokussierst konsequent auf konkrete " +
+    "Ereignisse, Vorfälle und Berichterstattung der letzten vier Wochen – nicht auf " +
+    "strukturelle Dauerthemen. Beschlossene oder angekündigte Massnahmen, Programme " +
+    "oder Investitionen, deren Wirkung erst in mehreren Monaten oder Jahren eintritt, " +
+    "lässt du unabhängig von ihrer Aktualität in der Berichterstattung weg – auch " +
+    "wenn kürzlich darüber berichtet wurde. Du unterscheidest klar zwischen " +
+    "gesicherten Fakten und Einschätzungen. Keine Panikmache, keine Spekulation. " +
+    "Eine separate, dedizierte Recherche deckt fünf internationale Leitmedien " +
+    "(NZZ, FAZ, Le Figaro, Guardian, New York Times) bereits garantiert ab – du " +
+    "musst diese nicht gezielt durchsuchen, darfst aber ergänzend auf weitere " +
+    "internationale Quellen zugreifen, wenn das für die weltweite Einordnung hilft.";
 
   const user =
     `Erstelle eine recherchierte Lagebeurteilung für den Berichtsmonat ${monatLabel} ` +
     `zur Bevölkerungsschutz-Lage im Kanton Bern.\n\n` +
-    `ZEITFENSTER (allgemeine OSINT-Recherche zur Schweiz): Berücksichtige ` +
-    `ausschliesslich Ereignisse und Berichterstattung aus den letzten vier Wochen ` +
-    `(${fenster}). Suche gezielt nach aktuellen Nachrichten, Medienberichten, ` +
-    `Meldungen von Behörden/Betreibern und Social-Media-Beiträgen aus diesem Zeitraum.\n\n` +
-    `PFLICHT-AUSWERTUNG INTERNATIONALER LEITMEDIEN (Zeitfenster: letzte zwei Wochen, ` +
-    `${medienFenster}):\n` +
-    `Durchsuche zusätzlich gezielt jede der folgenden Zeitungen einzeln (z. B. mit dem ` +
-    `site:-Suchoperator) nach Artikeln der letzten zwei Wochen, die für die ` +
-    `Bevölkerungsschutz-Lage relevant sind (u. a. Sicherheit/Konflikte, Energie, ` +
-    `Gesundheit/Pandemien, Extremwetter/Naturgefahren, Cyber-Bedrohungen, Migration, ` +
-    `Versorgungslage, Wirtschaft mit Versorgungsrelevanz):\n` +
-    `${leitmedienListe}\n\n` +
-    `Fasse pro Zeitung kurz zusammen, was du gefunden hast, und ordne die relevanten ` +
-    `Erkenntnisse direkt den unten stehenden Fragestellungen zu – insbesondere der ` +
-    `weltweiten (und bei NZZ/FAZ ggf. auch der europäischen/Schweizer) Perspektive der ` +
-    `Sektorbeurteilungen. Wenn eine Zeitung im Zeitraum keine relevanten Artikel liefert, ` +
-    `halte das kurz und explizit fest (z. B. \"Le Figaro: keine für die Lagebeurteilung ` +
-    `relevanten Artikel im Berichtszeitraum gefunden\"), statt die Lücke mit generischen ` +
-    `Aussagen zu füllen.\n\n` +
+    `ZEITFENSTER: Berücksichtige ausschliesslich Ereignisse und Berichterstattung aus ` +
+    `den letzten vier Wochen (${fenster}). Suche gezielt nach aktuellen Nachrichten, ` +
+    `Medienberichten, Meldungen von Behörden/Betreibern und Social-Media-Beiträgen aus ` +
+    `diesem Zeitraum.\n\n` +
     `WAS NICHT EINFLIESSEN SOLL:\n` +
     `- Rein strukturelle oder langfristige Themen (z. B. Versorgungsindizes, ` +
     `mehrjährige Investitions- oder Ausbauprogramme, internationale Abkommen), sofern ` +
-    `sie nicht durch ein konkretes Ereignis des jeweiligen Zeitfensters ausgelöst wurden.\n` +
+    `sie nicht durch ein konkretes Ereignis der letzten vier Wochen ausgelöst wurden.\n` +
     `- Beschlüsse, Ankündigungen oder Massnahmen, deren Wirkung erst in einigen Monaten ` +
     `oder Jahren eintritt (z. B. Bauprojekte, Gesetzesänderungen mit späterem ` +
     `Inkrafttreten, Reservekraftwerk- oder Netzausbauprojekte) – auch wenn die Meldung ` +
     `dazu aktuell ist.\n` +
-    `- Umfrage- oder Stimmungsergebnisse ohne unmittelbaren Bezug zu einem Ereignis des ` +
-    `jeweiligen Zeitfensters.\n\n` +
-    `Recherchiere mit der Websuche (Schweizer Quellen UND die oben gelisteten ` +
-    `Leitmedien) und beurteile:\n` +
-    `1. Die aktuelle Lage – gestützt auf konkrete Ereignisse der letzten Wochen, ` +
-    `einschliesslich relevanter Befunde aus den Leitmedien.\n` +
+    `- Umfrage- oder Stimmungsergebnisse ohne unmittelbaren Bezug zu einem Ereignis der ` +
+    `letzten vier Wochen.\n\n` +
+    `Recherchiere mit der Websuche und beurteile:\n` +
+    `1. Die aktuelle Lage – gestützt auf Ereignisse der letzten vier Wochen.\n` +
     `2. Die Entwicklung der letzten Wochen – als zeitlicher Verlauf konkreter Ereignisse.\n` +
     `3. Die Entwicklungstendenzen für den nächsten Monat – als direkte Fortschreibung ` +
     `der beobachteten aktuellen Entwicklung, nicht als struktureller Ausblick.\n` +
-    `4. Für jeden der folgenden Versorgungssektoren die Auswirkungen der aktuellen ` +
-    `Entwicklungen jeweils WELTWEIT (gestützt insbesondere auf Guardian/NYT/Figaro/` +
-    `FAZ/NZZ), in der SCHWEIZ und im KANTON BERN auf die Leistungsfähigkeit, sowie ein ` +
-    `kurzes Fazit und eine Einstufung (voll leistungsfähig / unter Beobachtung / ` +
-    `eingeschränkt / kritisch) und eine Risikotendenz (steigend / stabil / sinkend). ` +
-    `Wenn es für einen Sektor keine relevante aktuelle Entwicklung gibt, halte das kurz ` +
-    `fest, statt auf strukturelle Themen auszuweichen:\n` +
+    `4. Für jeden der folgenden Versorgungssektoren die Auswirkungen der aktuellen, ` +
+    `in den letzten vier Wochen beobachteten Entwicklungen jeweils WELTWEIT, in der ` +
+    `SCHWEIZ und im KANTON BERN auf die Leistungsfähigkeit, sowie ein kurzes Fazit und ` +
+    `eine Einstufung (voll leistungsfähig / unter Beobachtung / eingeschränkt / ` +
+    `kritisch) und eine Risikotendenz (steigend / stabil / sinkend). Wenn es für einen ` +
+    `Sektor keine relevante aktuelle Entwicklung gibt, halte das kurz fest, statt auf ` +
+    `strukturelle Themen auszuweichen:\n` +
     `${sektorenListe}\n\n` +
-    `Gib eine strukturierte, ausführliche Lagebeurteilung in Deutsch aus. Nenne Quellen ` +
-    `(inkl. Medienname) und deren Datum, wo möglich.`;
+    `Gib eine strukturierte, ausführliche Lagebeurteilung in Deutsch aus. ` +
+    `Nenne Quellen und deren Datum, wo möglich.`;
 
   const messages = [{ role: "user", content: user }];
 
-  for (let i = 0; i < 8; i++) {
+  for (let i = 0; i < 6; i++) {
     const stream = client.messages.stream({
       model: MODEL,
-      max_tokens: 20000,
+      max_tokens: 16000,
       system,
       thinking: { type: "adaptive" },
-      tools: [{ type: "web_search_20260209", name: "web_search", max_uses: 24 }],
+      tools: [{ type: "web_search_20260209", name: "web_search", max_uses: 10 }],
       messages,
     });
     const message = await stream.finalMessage();
@@ -203,10 +189,120 @@ async function recherche(monatLabel) {
     }
 
     const text = textBlocks(message);
-    if (!text.trim()) throw new Error("Recherche lieferte keinen Text.");
+    if (!text.trim()) throw new Error("Allgemeine Recherche lieferte keinen Text.");
     return text;
   }
-  throw new Error("Recherche wurde nach mehreren Fortsetzungen nicht abgeschlossen.");
+  throw new Error("Allgemeine Recherche wurde nach mehreren Fortsetzungen nicht abgeschlossen.");
+}
+
+/**
+ * Dedizierte, auf ein einzelnes Leitmedium beschränkte Recherche. Die Websuche
+ * ist über `allowed_domains` hart auf die Domain der Zeitung begrenzt, sodass
+ * das Modell diese Quelle nicht umgehen oder das Suchbudget auf andere Quellen
+ * verlagern kann – jede Zeitung bekommt garantiert ihre eigene Suche.
+ */
+async function rechercheLeitmedium(monatLabel, medium) {
+  const medienFenster = zweiWochenFenster();
+
+  const system =
+    "Du bist Rechercheur:in für eine Lagebeurteilung des Bevölkerungsschutzes im " +
+    `Kanton Bern (Schweiz). Deine Websuche ist technisch ausschliesslich auf die ` +
+    `Domain ${medium.domain} (${medium.name}) beschränkt. Du suchst nach Artikeln ` +
+    "der letzten zwei Wochen zu Themen, die für eine Bevölkerungsschutz-" +
+    "Lagebeurteilung relevant sind: Sicherheit/Konflikte, Energie, " +
+    "Gesundheit/Pandemien, Extremwetter/Naturgefahren, Cyber-Bedrohungen, " +
+    "Migration, Versorgungslage, Wirtschaft mit Versorgungsrelevanz. Beschlossene " +
+    "oder angekündigte Massnahmen, deren Wirkung erst in Monaten oder Jahren " +
+    "eintritt, sowie rein strukturelle Dauerthemen ohne Bezug zu einem konkreten " +
+    "Ereignis dieses Zeitraums lässt du weg, auch wenn kürzlich darüber berichtet " +
+    "wurde. Keine Panikmache, keine Spekulation.";
+
+  const user =
+    `Durchsuche ${medium.name} (${medium.domain}) nach Artikeln aus dem Zeitraum ` +
+    `${medienFenster} für den Berichtsmonat ${monatLabel} zur Bevölkerungsschutz-` +
+    `Lage im Kanton Bern.\n\n` +
+    `Stelle dazu MINDESTENS ZWEI inhaltlich unterschiedliche Suchanfragen zu ` +
+    `verschiedenen Themenclustern (z. B. einmal zu Energie/Versorgung, einmal zu ` +
+    `Sicherheit/Konflikten, ggf. weitere zu Gesundheit, Extremwetter oder Cyber) – ` +
+    `eine einzelne Suchanfrage reicht nicht aus.\n\n` +
+    `Gib am Ende aus:\n` +
+    `1. Die tatsächlich verwendeten Suchanfragen als Liste, damit die Recherche ` +
+    `nachvollziehbar ist.\n` +
+    `2. Für jeden relevanten gefundenen Artikel: Titel, Datum und eine kurze, ` +
+    `faktenbasierte Zusammenfassung mit explizitem Bezug zur Bevölkerungsschutz-Lage.\n` +
+    `3. Falls keine relevanten Artikel gefunden wurden, schreibe explizit ` +
+    `"Keine relevanten Artikel im Berichtszeitraum gefunden" – aber nur, nachdem du ` +
+    `tatsächlich mindestens zwei unterschiedliche Suchanfragen gestellt hast; liste ` +
+    `diese trotzdem auf.`;
+
+  const messages = [{ role: "user", content: user }];
+
+  for (let i = 0; i < 4; i++) {
+    const stream = client.messages.stream({
+      model: MODEL,
+      max_tokens: 4000,
+      system,
+      thinking: { type: "adaptive" },
+      tools: [{
+        type: "web_search_20260209",
+        name: "web_search",
+        max_uses: 6,
+        allowed_domains: [medium.domain],
+      }],
+      messages,
+    });
+    const message = await stream.finalMessage();
+
+    if (message.stop_reason === "pause_turn") {
+      messages.push({ role: "assistant", content: message.content });
+      continue;
+    }
+
+    const text = textBlocks(message);
+    if (!text.trim()) throw new Error(`Leitmedien-Recherche (${medium.name}) lieferte keinen Text.`);
+    return text;
+  }
+  throw new Error(`Leitmedien-Recherche (${medium.name}) wurde nach mehreren Fortsetzungen nicht abgeschlossen.`);
+}
+
+/**
+ * Orchestriert die allgemeine Schweiz-Recherche und die fünf
+ * Leitmedien-Einzelrecherchen parallel und fügt sie zu einem Text mit klarer
+ * Quellenzuordnung zusammen. Scheitert eine einzelne Zeitung (z. B. wegen
+ * eines transienten API-Fehlers), bricht nicht der gesamte Lauf ab – die
+ * Lücke wird im Text vermerkt.
+ */
+async function recherche(monatLabel) {
+  const [allgemeinResult, ...leitmedienResults] = await Promise.allSettled([
+    rechercheAllgemein(monatLabel),
+    ...LEITMEDIEN.map((medium) => rechercheLeitmedium(monatLabel, medium)),
+  ]);
+
+  if (allgemeinResult.status === "rejected") {
+    const grund = allgemeinResult.reason?.message || String(allgemeinResult.reason);
+    throw new Error(`Allgemeine Recherche fehlgeschlagen: ${grund}`);
+  }
+
+  const abschnitte = [
+    `## Allgemeine Recherche (Schweiz, OSINT, letzte vier Wochen)\n\n${allgemeinResult.value}`,
+  ];
+
+  LEITMEDIEN.forEach((medium, i) => {
+    const ergebnis = leitmedienResults[i];
+    if (ergebnis.status === "fulfilled") {
+      abschnitte.push(`## Leitmedium: ${medium.name}\n\n${ergebnis.value}`);
+    } else {
+      const grund = ergebnis.reason?.message || String(ergebnis.reason);
+      console.warn(`  ⚠ Recherche bei ${medium.name} fehlgeschlagen: ${grund}`);
+      abschnitte.push(
+        `## Leitmedium: ${medium.name}\n\n` +
+        `Technischer Fehler bei der Recherche zu diesem Medium – keine Auswertung ` +
+        `möglich (${grund}).`
+      );
+    }
+  });
+
+  return abschnitte.join("\n\n");
 }
 
 // ---------------------------------------------------------------------------
@@ -339,7 +435,8 @@ async function main() {
   console.log(`▶ Generiere Entwurf für ${monat.label} (${monat.id}) …`);
   console.log(`  Modell: ${MODEL}${process.env.LAGE_MODEL ? " (via LAGE_MODEL überschrieben)" : " (Standard)"}`);
 
-  console.log("  1/3  Recherche mit Websuche …");
+  console.log("  1/3  Recherche (allgemein + 5 Leitmedien parallel, domain-beschränkt) …");
+  console.log(`       Leitmedien: ${LEITMEDIEN.map((m) => m.name).join(", ")}`);
   const rechercheText = await recherche(monat.label);
 
   console.log("  2/3  Strukturierung in JSON …");

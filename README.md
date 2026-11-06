@@ -92,13 +92,22 @@ package.json                             Abhängigkeit: @anthropic-ai/sdk
 
 ### Funktionsweise
 
-1. **Recherche** – die Claude-API erstellt mit aktivierter **Websuche** eine
-   quellengestützte Lagebeurteilung (weltweit / Schweiz / Kanton Bern, alle Sektoren).
-   Neben allgemeiner Schweizer OSINT-Recherche (Medien, Behördenkanäle, Social Media;
-   Zeitfenster: letzte 4 Wochen) wertet der Generator **zwingend** fünf internationale
-   Leitmedien der letzten 2 Wochen aus: NZZ, FAZ, Le Figaro, The Guardian, The New York
-   Times. Fehlt in einem dieser Medien ein relevanter Artikel, wird das explizit so
-   festgehalten statt mit generischen Aussagen überbrückt.
+1. **Recherche** – sechs parallele Claude-API-Aufrufe mit aktivierter **Websuche**:
+   - eine **allgemeine Schweiz-Recherche** (Medien, Behördenkanäle, Social Media;
+     Zeitfenster: letzte 4 Wochen);
+   - fünf **dedizierte Einzelrecherchen**, je eine pro internationalem Leitmedium
+     (NZZ, FAZ, Le Figaro, The Guardian, The New York Times; Zeitfenster: letzte 2
+     Wochen). Die Websuche jeder Einzelrecherche ist über `allowed_domains` technisch
+     hart auf die jeweilige Zeitungs-Domain beschränkt – so kann keine Zeitung
+     "vergessen" oder das Suchbudget einseitig auf eine einzelne Quelle verteilt
+     werden. Jede Recherche muss mindestens zwei unterschiedliche Suchanfragen
+     stellen und diese offenlegen; fehlen relevante Artikel, wird das explizit
+     festgehalten statt mit generischen Aussagen überbrückt. Scheitert eine
+     einzelne Zeitung (z. B. transienter API-Fehler), bricht nicht der gesamte
+     Lauf ab – die Lücke wird im Bericht vermerkt.
+   Die Ergebnisse werden mit klarer Quellenzuordnung zusammengeführt und ergeben
+   eine quellengestützte Lagebeurteilung (weltweit / Schweiz / Kanton Bern, alle
+   Sektoren).
 2. **Strukturierung** – das Ergebnis wird über *Structured Outputs* in das strikte
    JSON-Schema der Seite überführt und als `data/<jahr-monat>.json` mit
    `"entwurf": true` geschrieben (die Seite zeigt dazu ein „Entwurf"-Badge).
