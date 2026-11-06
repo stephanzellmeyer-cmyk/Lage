@@ -94,6 +94,11 @@ package.json                             Abhängigkeit: @anthropic-ai/sdk
 
 1. **Recherche** – die Claude-API erstellt mit aktivierter **Websuche** eine
    quellengestützte Lagebeurteilung (weltweit / Schweiz / Kanton Bern, alle Sektoren).
+   Neben allgemeiner Schweizer OSINT-Recherche (Medien, Behördenkanäle, Social Media;
+   Zeitfenster: letzte 4 Wochen) wertet der Generator **zwingend** fünf internationale
+   Leitmedien der letzten 2 Wochen aus: NZZ, FAZ, Le Figaro, The Guardian, The New York
+   Times. Fehlt in einem dieser Medien ein relevanter Artikel, wird das explizit so
+   festgehalten statt mit generischen Aussagen überbrückt.
 2. **Strukturierung** – das Ergebnis wird über *Structured Outputs* in das strikte
    JSON-Schema der Seite überführt und als `data/<jahr-monat>.json` mit
    `"entwurf": true` geschrieben (die Seite zeigt dazu ein „Entwurf"-Badge).
