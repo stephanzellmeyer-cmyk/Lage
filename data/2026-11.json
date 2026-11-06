@@ -1,24 +1,37 @@
 {
   "id": "2026-11",
   "monat": "November 2026",
-  "stand": "1. November 2026",
+  "stand": "6. November 2026",
   "entwurf": true,
   "gesamtlage": {
-    "stufe": "normal",
-    "titel": "Keine aussergewöhnlichen Vorkommnisse identifiziert",
-    "text": "Für den Berichtszeitraum (4. Oktober bis 1. November 2026) liegen keine verifizierten Hinweise auf ausserordentliche Ereignisse oder Versorgungsstörungen im Kanton Bern oder in der Schweiz vor. Die Gesamtlage wird daher als normal eingestuft, wobei diese Einschätzung mit dem Vorbehalt eingeschränkter aktueller Quellenlage für diesen Zeitraum zu lesen ist."
+    "stufe": "beobachtung",
+    "titel": "Stabile Gesamtlage mit Beobachtungspunkt Energieversorgung",
+    "text": "Die Bevölkerungsschutzlage im Kanton Bern ist im November 2026 ohne akute Grossschadenslage. Acht der neun Versorgungssektoren gelten als voll leistungsfähig. Einzig die Energieversorgung ist aufgrund einer konkreten Lücke im nationalen Notfallplan und der angespannten europäischen Gas- und Stromlage unter Beobachtung mit steigender Risikotendenz."
   },
   "aktuelleLage": [
-    "Es konnten für den definierten Zeitraum keine spezifischen, verifizierten Vorfälle in den neun Versorgungssektoren festgestellt werden, die eine Abweichung von einer normalen Lage begründen würden.",
-    "Die Datenlage für eine detaillierte Einzelfallbewertung ist für diesen Berichtsmonat eingeschränkt, weshalb die Beurteilung auf einer vorsichtigen, konservativen Grundeinschätzung beruht."
+    "Zentrales Ereignis des Berichtsmonats ist die Berichterstattung der NZZ, wonach der Schweiz erstmals seit 2022 im Winter der Strom ausgehen könnte, da im Notfallplan des Bundes eine konkrete Lücke besteht.",
+    "Saisonal einsetzende Entwicklungen zeigen sich bei der medizinischen Versorgung: Die Grippeaktivität beginnt zu steigen, zudem nimmt laut Abwassermonitoring die Coronavirus-Verbreitung in mehreren Regionen zu.",
+    "Die Zahl der Asylgesuche ist rückläufig, was die Unterbringungsstrukturen tendenziell entlastet.",
+    "Die Kantonspolizei Bern führte reguläre herbstliche Präventionsarbeit gegen Einbruchdiebstahl durch, ohne Hinweise auf eine erhöhte Bedrohungslage.",
+    "Wetterseitig war der Oktober 2026 in der Schweiz deutlich wärmer und trockener als im langjährigen Mittel, ohne Hinweise auf Hochwasser- oder Sturmschäden im Kanton Bern. Ein befürchteter Sonnensturm blieb unterhalb der Wirkschwelle."
   ],
   "entwicklungWochen": [
-    "Im Beobachtungszeitraum wurden keine signifikanten Veränderungen oder Eskalationen gegenüber der Vormonatslage festgestellt.",
-    "Es liegen keine Hinweise auf neu aufgetretene Engpässe oder Störungen in den Bereichen Wasser, Lebensmittel, Medizin, Energie, Mobilität, Bargeld, Kommunikation, Unterbringung oder Sicherheit vor."
+    "6.–9.10.2026: Durchführung der EU-Katastrophenschutzübung «CH-MODEX26» in Genf/Payerne (Erdbebenszenario) als Übung ohne realen Bezug.",
+    "Ca. 13.–16.10.2026: Ein prognostizierter Sonnensturm bleibt aus, da NOAA keinen geomagnetischen Sturm erwartete; keine Auswirkungen auf Infrastruktur.",
+    "Ca. 15.10.2026: Das SEM meldet für September rund 2100 Asylgesuche, einen Rückgang um 18 Prozent gegenüber dem Vorjahresmonat.",
+    "23.–26.10.2026: Die Kantonspolizei Bern führt am «Tag des Einbruchschutzes» kantonsweit Präventionsaktionen durch.",
+    "25.10.2026: Sturmtief «Manja» wird im Schweizer Sturmarchiv erfasst, ohne dokumentierte Grossschäden.",
+    "29.10.2026: Laborbestätigte Grippefälle verdoppeln sich gegenüber der Vorwoche auf hochgerechnet 72 Fälle, das Gesamtniveau bleibt aber weiterhin tief.",
+    "31.10.2026: MeteoSchweiz bestätigt für den Oktober verbreitet unterdurchschnittliche Niederschlagsmengen.",
+    "01.11.2026: Die NZZ berichtet, dass Ersatz-Generatoren für das Reservekraftwerk Birr noch nicht parat sind, wodurch diesen Winter für zwei Monate die Leistung eines grossen Reservekraftwerks fehlt.",
+    "03.11.2026: Die NZZ berichtet über stark gestiegene Energiepreise und ungewöhnlich tiefe Reserven; BAG-Daten zeigen eine steigende Coronavirus-Verbreitung in mehreren Regionen, unter anderem in Altenrhein (SG) und Genf."
   ],
   "tendenzen": [
-    "Ohne neue verifizierte Ereignisse wird von einer stabilen Fortsetzung der aktuellen Lage ausgegangen.",
-    "Eine Neubewertung wird empfohlen, sobald aktuelle, geprüfte Informationen zu konkreten Ereignissen im Kanton Bern und der Schweiz vorliegen."
+    "Energie: Die Lücke beim Reservekraftwerk Birr besteht voraussichtlich bis Februar fort. Bei einem Kälteeinbruch in Kombination mit tiefen europäischen Gasspeicherständen und möglichen Ausfällen französischer Kernkraftwerke steigt das Risiko einer Strommangellage; hohe Energiepreise dürften anhalten.",
+    "Medizinische Versorgung: Die Grippeaktivität wird saisontypisch weiter zunehmen, und die COVID-Viruslast zeigt in einzelnen Regionen einen steigenden Trend. Eine ausgeprägte Grippewelle wird in den kommenden Wochen erwartet, ist aktuell aber noch nicht erreicht.",
+    "Unterbringung/Asyl: Erfahrungsgemäss nimmt die Zahl der Asylgesuche gegen Ende des Sommers und im Herbst zu und geht in den Wintermonaten zurück; ein weiterer saisonaler Rückgang Richtung Dezember ist plausibel.",
+    "Sicherheit: Mit der Winterzeit und früher einsetzender Dunkelheit bleibt das Einbruchsrisiko im Fokus der polizeilichen Präventionsarbeit, ohne Hinweise auf eine ausserordentliche Bedrohungslage.",
+    "Für Wasser-, Lebensmittel-, Mobilitäts-, Bargeld- und Kommunikationsversorgung ergaben sich im Berichtszeitraum keine Hinweise auf unmittelbaren Handlungsbedarf; die Beobachtung wird routinemässig fortgeführt."
   ],
   "sektoren": [
     {
@@ -27,10 +40,10 @@
       "icon": "💧",
       "status": "normal",
       "trend": "stabil",
-      "global": "Keine verifizierten Berichte über grössere Störungen der Wasserversorgung im Berichtszeitraum.",
-      "schweiz": "Keine gemeldeten Vorfälle bei der Trinkwasserversorgung auf nationaler Ebene.",
-      "bern": "Keine Hinweise auf Versorgungsstörungen im Kanton Bern.",
-      "fazit": "Normale Versorgungslage ohne erkennbare Beeinträchtigung."
+      "global": "Keine eigenständige Trinkwasserkrise identifiziert; die NZZ verknüpft tiefe Pegel vor allem mit der Energiefrage, da die Stauseereserven für den Winter aufgrund eines zuvor milden Winters klein sind.",
+      "schweiz": "Ein trockener und milder Oktober gemäss MeteoSchweiz führte zu tiefen Füllständen bei Stauseen, was primär ein Thema der Stromproduktion ist, nicht der Trinkwasserversorgung.",
+      "bern": "Keine spezifischen Meldungen zu Engpässen in der kantonalen Trinkwasserversorgung.",
+      "fazit": "Die Trinkwasserversorgung ist unbeeinträchtigt; tiefe Seepegel sind primär ein Energiethema."
     },
     {
       "id": "lebensmittel",
@@ -38,32 +51,32 @@
       "icon": "🥖",
       "status": "normal",
       "trend": "stabil",
-      "global": "Keine bestätigten Meldungen zu relevanten Lieferkettenunterbrechungen im Zeitraum.",
-      "schweiz": "Keine Hinweise auf Versorgungsengpässe bei Grundnahrungsmitteln.",
-      "bern": "Keine lokalen Berichte über Engpässe oder Preisschocks.",
-      "fazit": "Stabile Versorgungslage ohne Auffälligkeiten."
+      "global": "Keine relevanten Ereignisse oder Versorgungsstörungen im Berichtszeitraum identifiziert.",
+      "schweiz": "Keine relevanten Ereignisse oder Versorgungsstörungen im Berichtszeitraum identifiziert.",
+      "bern": "Keine relevanten Ereignisse oder Versorgungsstörungen im Berichtszeitraum identifiziert.",
+      "fazit": "Keine aktuelle Entwicklung mit Relevanz für diesen Sektor."
     },
     {
       "id": "medizin",
       "name": "Medizinische Versorgung",
       "icon": "🏥",
-      "status": "normal",
-      "trend": "stabil",
-      "global": "Keine verifizierten Hinweise auf akute Engpässe bei Medikamenten oder medizinischer Versorgung.",
-      "schweiz": "Keine gemeldeten kritischen Lieferengpässe im Gesundheitswesen.",
-      "bern": "Keine Berichte über Kapazitätsprobleme in Spitälern oder Apotheken.",
-      "fazit": "Normale medizinische Versorgungslage."
+      "status": "beobachtung",
+      "trend": "steigend",
+      "global": "Für den Berichtszeitraum konnten keine verifizierten Befunde aus den internationalen Leitmedien zu diesem Sektor gesichert werden.",
+      "schweiz": "BAG-Daten zeigen einen langsamen Anstieg der Grippeaktivität ohne eigentliche Grippewelle; bei Influenza A weist Basel die höchste relative Viruslast auf, gefolgt von Zürich und Luzern. Gleichzeitig steigt die Corona-Zirkulation in einzelnen Regionen.",
+      "bern": "Keine kantonsspezifischen Fallzahlen verfügbar; die nationale Entwicklung ist als Referenz anzunehmen.",
+      "fazit": "Saisonale Atemwegserkrankungen nehmen zu, das Niveau ist aktuell noch moderat, Spitäler stehen nicht unter erkennbarem Druck."
     },
     {
       "id": "energie",
       "name": "Energieversorgung",
       "icon": "⚡",
-      "status": "normal",
-      "trend": "stabil",
-      "global": "Keine bestätigten grösseren Störungen der Energieversorgung im Beobachtungszeitraum.",
-      "schweiz": "Keine Meldungen zu Stromausfällen oder Engpässen auf nationaler Ebene.",
-      "bern": "Keine lokalen Vorfälle bei der Energieversorgung bekannt.",
-      "fazit": "Stabile Energieversorgung ohne erkennbare Risiken."
+      "status": "beobachtung",
+      "trend": "steigend",
+      "global": "Laut NZZ sind die europäischen Erdgasspeicher schlecht gefüllt; bei ungünstigen Bedingungen müssten in der EU vermehrt Kohlekraftwerke hochgefahren werden, was an den Winter 2022/23 erinnert.",
+      "schweiz": "Zentrales Risiko ist die Lücke im Notfallplan: Das Ersatzkraftwerk für die abgebauten Generatoren in Birr ist erst ab Februar bereit; die Schweiz muss im Winter europäischen Strom importieren, was das Land bei europaweiter Knappheit verwundbar macht. Die Gasversorgung für den Winter 2026/27 wird von den Behörden als herausfordernd bezeichnet.",
+      "bern": "Keine kantonsspezifischen Vorfälle; der Kanton ist über die nationale Netz- und Importabhängigkeit mitbetroffen.",
+      "fazit": "Angespannte, aber derzeit noch kontrollierte Lage mit konkretem Risiko bei Kälteeinbruch oder Kraftwerksausfällen in Frankreich."
     },
     {
       "id": "mobilitaet",
@@ -71,10 +84,10 @@
       "icon": "🚆",
       "status": "normal",
       "trend": "stabil",
-      "global": "Keine verifizierten Berichte über grössere Verkehrsunterbrechungen im Zeitraum.",
-      "schweiz": "Keine gemeldeten landesweiten Störungen im öffentlichen Verkehr oder Strassennetz.",
-      "bern": "Keine Hinweise auf relevante Mobilitätseinschränkungen im Kanton.",
-      "fazit": "Normale Mobilitätslage."
+      "global": "Keine relevanten Störungen im internationalen Bahn-, Strassen- oder Luftverkehr im Berichtszeitraum identifiziert.",
+      "schweiz": "Keine relevanten Störungen im Bahn-, Strassen- oder Luftverkehr im Berichtszeitraum identifiziert.",
+      "bern": "Keine relevanten Störungen im Berichtszeitraum identifiziert.",
+      "fazit": "Keine aktuelle Entwicklung mit Relevanz für diesen Sektor."
     },
     {
       "id": "bargeld",
@@ -82,10 +95,10 @@
       "icon": "💳",
       "status": "normal",
       "trend": "stabil",
-      "global": "Keine bestätigten Störungen im Zahlungsverkehr oder bei der Bargeldversorgung.",
-      "schweiz": "Keine Meldungen zu Ausfällen bei Banken oder Geldautomaten.",
-      "bern": "Keine lokalen Vorfälle im Zusammenhang mit Bargeldversorgung bekannt.",
-      "fazit": "Stabile Lage im Finanzsektor."
+      "global": "Keine relevanten Vorfälle bei Zahlungsinfrastruktur oder Systemausfällen im Berichtszeitraum identifiziert.",
+      "schweiz": "Keine relevanten Vorfälle im Berichtszeitraum identifiziert.",
+      "bern": "Keine relevanten Vorfälle im Berichtszeitraum identifiziert.",
+      "fazit": "Keine aktuelle Entwicklung mit Relevanz für diesen Sektor."
     },
     {
       "id": "kommunikation",
@@ -93,21 +106,21 @@
       "icon": "📡",
       "status": "normal",
       "trend": "stabil",
-      "global": "Keine verifizierten grösseren Ausfälle von Kommunikationsnetzen im Zeitraum.",
-      "schweiz": "Keine gemeldeten landesweiten Störungen bei Mobilfunk oder Internet.",
-      "bern": "Keine lokalen Berichte über Netzausfälle.",
-      "fazit": "Normale Kommunikationsinfrastruktur ohne Beeinträchtigung."
+      "global": "Keine verifizierten Leitmedien-Befunde zu diesem Sektor im Berichtszeitraum.",
+      "schweiz": "Das BABS startete am 21.10.2026 den Rollout mobiler Sirenen als Ergänzung zu den stationären Sirenen; keine Hinweise auf Cyberangriffe oder Ausfälle der Kommunikationsinfrastruktur im Berichtszeitraum.",
+      "bern": "Keine kantonsspezifischen Vorfälle im Berichtszeitraum identifiziert.",
+      "fazit": "Die Infrastruktur ist funktionsfähig; eine schrittweise technische Ergänzung der Alarmierungsmittel ist im Gang."
     },
     {
       "id": "unterbringung",
       "name": "Unterbringung",
       "icon": "🏠",
       "status": "normal",
-      "trend": "stabil",
-      "global": "Keine bestätigten Ereignisse mit Auswirkungen auf Unterbringungskapazitäten.",
-      "schweiz": "Keine gemeldeten akuten Engpässe bei Notunterkünften.",
-      "bern": "Keine lokalen Hinweise auf Kapazitätsprobleme.",
-      "fazit": "Stabile Lage bei Unterbringungsmöglichkeiten."
+      "trend": "sinkend",
+      "global": "Keine verifizierten Leitmedien-Befunde zu diesem Sektor im Berichtszeitraum.",
+      "schweiz": "Für September 2026 registrierte das SEM rund 2100 Asylgesuche, einen Rückgang um 18 Prozent gegenüber dem Vorjahresmonat, mit Afghanistan als wichtigstem Herkunftsland.",
+      "bern": "Keine spezifischen Berichte zu kantonalen Unterbringungskapazitäten im Berichtszeitraum.",
+      "fazit": "Rückläufige Gesuchszahlen entlasten tendenziell die Unterbringungsstrukturen."
     },
     {
       "id": "sicherheit",
@@ -115,10 +128,10 @@
       "icon": "🛡️",
       "status": "normal",
       "trend": "stabil",
-      "global": "Keine verifizierten sicherheitsrelevanten Grossereignisse im Berichtszeitraum identifiziert.",
-      "schweiz": "Keine gemeldeten ausserordentlichen sicherheitsrelevanten Vorfälle auf nationaler Ebene.",
-      "bern": "Keine lokalen Sicherheitsvorfälle mit Relevanz für den Bevölkerungsschutz bekannt.",
-      "fazit": "Normale Sicherheitslage ohne erkennbare Eskalation."
+      "global": "Keine verifizierten Leitmedien-Befunde zu diesem Sektor im Berichtszeitraum.",
+      "schweiz": "Die reguläre saisonale Präventionsarbeit der Kantonspolizeien im Rahmen der nationalen SKP-Kampagne gegen Einbruchdiebstahl lief wie gewohnt.",
+      "bern": "Die Kantonspolizei Bern führte am 26.10.2026 anlässlich des «Tags des Einbruchschutzes» kantonsweit Präventionsaktionen durch, einen Tag nach der Umstellung auf die Winterzeit.",
+      "fazit": "Es besteht keine ausserordentliche Sicherheitslage; das saisonal leicht erhöhte Einbruchsrisiko in der dunklen Jahreszeit wird präventiv adressiert."
     }
   ]
 }
